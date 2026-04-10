@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.chat.dto.request;
+
+public class ChatMessageRequest {
+
+}
