@@ -1,0 +1,14 @@
+package com.mycompany.backendapi.returntype.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/return-type")
+public class ReturnTypeController {
+	@GetMapping("/string")
+	public String string() {
+		return "Hello, World!";
+	}
+}

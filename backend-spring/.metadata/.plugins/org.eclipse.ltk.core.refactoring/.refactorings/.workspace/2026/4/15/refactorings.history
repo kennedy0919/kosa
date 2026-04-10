@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;back-end-api&apos;" description="Copy Project &apos;back-end-api&apos;" destination="C:/kosa-course/projects/backend-spring" element="/back-end-api" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="back-end-api-practice" stamp="1775806735239"/>
+</session>

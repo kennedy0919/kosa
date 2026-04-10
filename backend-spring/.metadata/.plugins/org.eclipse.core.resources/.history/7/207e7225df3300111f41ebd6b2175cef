@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.dto;
+
+public class Board {
+
+}

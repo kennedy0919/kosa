@@ -1,0 +1,7 @@
+package ch12.sec06;
+
+public class StringToPremitiveTypeExample {
+	public static void main(String[] args) {
+		
+	}
+}

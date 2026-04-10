@@ -1,0 +1,26 @@
+package com.mycompany.backendapi.httpmethod.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import lombok.extern.slf4j.Slf4j;
+
+@RestController
+@RequestMapping("/http-method")
+@Slf4j
+public class HttpMethodController {
+//	@RequestMapping(value="/info", method = RequestMethod.GET)
+	@GetMapping("/info")
+	public String info() {
+		log.info("실행");
+		return "info 결과";
+	}
+	
+	@PostMapping("/join")
+	public String join() {
+		return "join 결과";
+	}
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2298874985.index
+3359379185.index

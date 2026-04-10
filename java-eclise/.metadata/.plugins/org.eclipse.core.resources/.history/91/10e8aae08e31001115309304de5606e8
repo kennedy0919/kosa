@@ -1,0 +1,20 @@
+package ch12.sec09;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+
+public class DateTimeCompareExample {
+	public static void main(String[] args) {
+		DateTimeFormatter dtf = DateTimeFormatter.ofLocalizedPattern("yyyy.MM.dd.aHH:mm:ss");
+		
+		LocalDateTime startDateTime = LocalDateTime.of(2021,   1, 1, 0, 0, 0);
+		System.out.println("시작일: " + startDateTime.format(dtf));
+		
+		LocalDateTime endDateTime = LocalDateTime.of(2021, 12, 31, 0, 0, 0);
+		System
+		
+		
+	}
+}
+

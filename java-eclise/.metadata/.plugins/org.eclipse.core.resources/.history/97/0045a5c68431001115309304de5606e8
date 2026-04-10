@@ -1,0 +1,11 @@
+package ch12.sec06;
+
+public class StringToPremitiveTypeExample {
+	public static void main(String[] args) {
+		String value1 = "3";
+		String value2 = "1.5";
+		
+		int value3 = Integer.parseInt(value1);
+		double value4 = Double.parsedouble(value2);
+ 	}
+}

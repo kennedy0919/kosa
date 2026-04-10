@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.restcontroller.controller;
+
+public class ControllerTest {
+
+}

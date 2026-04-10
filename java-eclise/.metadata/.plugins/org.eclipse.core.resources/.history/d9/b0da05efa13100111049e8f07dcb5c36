@@ -1,0 +1,12 @@
+package com.example.banking.domain;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
+public class Account {
+	private String name;
+	private Long balance;
+}

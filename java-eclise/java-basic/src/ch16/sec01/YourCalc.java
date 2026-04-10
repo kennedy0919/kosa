@@ -1,0 +1,10 @@
+package ch16.sec01;
+
+public class YourCalc implements Calculable{
+	@Override
+	public void calculate(int x, int y) {
+		int result = x - y;
+		System.out.println("YourCalc의 결과: " + result);
+		
+	}
+}

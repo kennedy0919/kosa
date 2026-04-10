@@ -1,0 +1,6 @@
+package com.example.banking.domain;
+
+public class Account {
+	private String name;
+	private int balance;
+}

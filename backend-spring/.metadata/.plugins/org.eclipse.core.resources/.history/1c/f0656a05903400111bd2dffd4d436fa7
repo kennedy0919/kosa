@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.receivedata.dto;
+
+public class LoginRequest {
+
+}
