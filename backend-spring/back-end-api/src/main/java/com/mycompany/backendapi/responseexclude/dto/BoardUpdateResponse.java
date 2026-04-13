@@ -1,0 +1,25 @@
+  package com.mycompany.backendapi.responseexclude.dto;
+
+import java.util.Date;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class BoardUpdateResponse {
+	private int bno;
+	private String btitle;
+	private String bcontent;
+	private String bwriter;
+	private int bhitcount;
+	private Date bdate;
+	private String battachoname;  // Multipart 파일에서 원래 파일 이름을 추출해서 저장
+	private String battachsname;  // 서버 퍼알 시스템에 저장할때 사용할 파일 이름
+	private String battachtype;  // 파일의 타입 (image/jpeg, image/jpg)
+}

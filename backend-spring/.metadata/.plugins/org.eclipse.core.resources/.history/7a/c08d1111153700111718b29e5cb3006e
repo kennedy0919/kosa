@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.validation.controller;
+
+public class ValidationController {
+
+}

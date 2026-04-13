@@ -1,0 +1,8 @@
+package com.mycompany.backendapi.responseexclude.dto;
+
+public class ProductSaveRequest {
+	private String pname;
+	private int pprice;
+	private String pcompany;
+	
+}

@@ -1,0 +1,124 @@
+package com.mycompany.backendapi.returntype.controller;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.mycompany.backendapi.returntype.dto.Board;
+
+import lombok.extern.slf4j.Slf4j;
+
+
+@Slf4j
+@RestController
+@RequestMapping("/return-type")
+public class ReturnTypeController {
+	@GetMapping("/string")
+	public String string() {
+		return "Hello, World!";
+	}
+	
+//	@GetMapping("/dto")
+	@GetMapping(value="/dto", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	public Board dto() {
+		Board board = new Board();
+		board.setBno(1);
+		board.setBtitle("제목입니다.");
+		board.setBcontent("내용입니다.");
+		board.setBwriter("작성자입니다.");
+		board.setBhitcount(0);
+		board.setBdate(new Date()); 
+		return board;
+	}
+	
+	@GetMapping("/list")
+	public List<Board> list() {
+		List<Board> list = new ArrayList<>();
+		for (int i = 1; i <= 5; i++) {
+			Board board = new Board();
+			board.setBno(i);
+			board.setBtitle(i + " i번째 제목입니다.");
+			board.setBcontent(i + " i번째 내용입니다.");
+			board.setBwriter("작성자입니다.");
+			board.setBhitcount(0);
+			board.setBdate(new Date()); 
+			list.add(board);
+		}
+		return list;
+	}
+	 
+	@GetMapping("/map")
+	public Map<String, Object> map() {
+		Map<String, Object> map = new HashMap<>();
+		
+		map.put("mid", "사용자");
+		List<Board> list = new ArrayList<>();
+
+		for (int i = 1; i <= 5; i++) {
+			Board board = new Board();
+			board.setBno(i);
+			board.setBtitle(i + " i번째 제목입니다.");
+			board.setBcontent(i + " i번째 내용입니다.");
+			board.setBwriter("작성자입니다.");
+			board.setBhitcount(0);
+			board.setBdate(new Date()); 
+			list.add(board);
+		}
+		map.put("boards", list);
+		return map;
+	}
+	
+	
+	@GetMapping("/response-entity")
+	public ResponseEntity<Board> responseEntity() {
+		
+			Board board = new Board();
+			board.setBno(1);
+			board.setBtitle("번째 제목입니다.");
+			board.setBcontent("i번째 내용입니다.");
+			board.setBwriter("작성자입니다.");
+			board.setBhitcount(0);
+			board.setBdate(new Date()); 
+			
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("my-head", "myvalue");
+			
+			return new ResponseEntity<>(board, headers, HttpStatus.OK);
+		}
+	
+	@GetMapping("/http-entity")
+	public HttpEntity<Board> HttpEntity() {
+		
+			Board board = new Board();
+			board.setBno(1);
+			board.setBtitle("번째 제목입니다.");
+			board.setBcontent("i번째 내용입니다.");
+			board.setBwriter("작성자입니다.");
+			board.setBhitcount(0);
+			board.setBdate(new Date()); 
+			
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("my-head", "myvalue");
+			
+			return new HttpEntity<>(board, headers);
+		}
+	
+	@GetMapping("/void") 
+	public void download() {
+		log.info("실행");
+	}
+			
+}
+	
+	

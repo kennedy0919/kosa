@@ -49,10 +49,10 @@ INDEX VERSION 1.134+C:\kosa-course\projects\backend-spring\.metadata\.plugins\or
 3638580824.index
 3982577946.index
 3945968714.index
-1073573578.index
-1390560299.index
 3627922240.index
 1024013519.index
+1390560299.index
+1073573578.index
 2998232348.index
 2322748087.index
 972152135.index
@@ -80,5 +80,4 @@ INDEX VERSION 1.134+C:\kosa-course\projects\backend-spring\.metadata\.plugins\or
 3586677046.index
 2196279026.index
 1254578537.index
-3359379185.index
 3449876156.index

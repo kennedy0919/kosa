@@ -1,0 +1,41 @@
+  package com.mycompany.backendapi.responseexclude.dto;
+
+import java.util.Date;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Board {
+	private String btitle;
+	private String bcontent;
+	private String bwriter;
+	
+
+	private byte[] battachdata; // 업로드된 파일 데이터
+	@JsonProperty(access = Access.WRITE_ONLY)
+	private MultipartFile battach;  // 업로드된 파일을 받을때
+	
+	@JsonProperty(access = Access.READ_ONLY)
+	private int bno;
+	@JsonProperty(access = Access.READ_ONLY)
+	private int bhitcount;
+	@JsonProperty(access = Access.READ_ONLY)
+	private Date bdate;
+	@JsonProperty(access = Access.READ_ONLY)
+	private String battachoname;  // Multipart 파일에서 원래 파일 이름을 추출해서 저장
+	@JsonProperty(access = Access.READ_ONLY)
+	private String battachsname;  // 서버 퍼알 시스템에 저장할때 사용할 파일 이름
+	@JsonProperty(access = Access.READ_ONLY)
+	private String battachtype;  // 파일의 타입 (image/jpeg, image/jpg)
+	
+}

@@ -1,0 +1,7 @@
+package com.mycompany.backendapi.responseexclude.dto;
+
+public class ProductResponse {
+	private int pid;
+	private String pname;
+	private String 
+}

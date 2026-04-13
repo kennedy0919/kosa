@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.responseexclude.dto;
+
+public class LoginRequest {
+
+}

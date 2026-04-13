@@ -1,0 +1,9 @@
+package com.mycompany.backendapi.product.dto;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@
+public class ProductResponse {
+
+}

@@ -1,0 +1,6 @@
+package com.mycompany.backendapi.product.dto;
+
+@
+public class ProductResponse {
+
+}
