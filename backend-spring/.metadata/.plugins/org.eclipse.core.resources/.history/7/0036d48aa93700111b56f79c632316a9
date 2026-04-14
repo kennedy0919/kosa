@@ -1,0 +1,26 @@
+package com.mycompany.backendapi.di.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+public class DiMemberService {
+	
+	// 필드 주입
+	@Autowired
+	private DiAComponet aComponent;
+	
+	public void join() {
+		log.info("join 출력");
+		aComponent.method();
+		bComponent.method();
+	}
+	
+	public void login() {
+		log.info("join 출력");
+	}
+	
+}

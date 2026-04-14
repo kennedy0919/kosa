@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.di.bean;
+
+public class DiInterfaceImplA implements {
+
+}

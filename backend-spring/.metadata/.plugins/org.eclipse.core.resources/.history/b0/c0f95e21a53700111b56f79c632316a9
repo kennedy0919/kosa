@@ -1,0 +1,29 @@
+package com.mycompany.backendapi.di.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.mycompany.backendapi.di.service.DiMemberService;
+import com.mycompany.backendapi.validation.dto.JoinRequest;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@RestController
+@RequestMapping("/di")
+public class DiController {
+	// 필드 주입
+	@Autowired
+	private DiMemberService memberService;
+	
+	public Dicontroller dicontroller
+	
+	@PostMapping("/join")
+	public String join () {
+		memberService.join();
+		return "가입성공";
+	}
+}

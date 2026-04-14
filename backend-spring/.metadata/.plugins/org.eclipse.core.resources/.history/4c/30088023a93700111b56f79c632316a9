@@ -1,0 +1,10 @@
+package com.mycompany.backendapi.di.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class DiAComponent {
+	public void method() {
+		log.info
+	}
+}

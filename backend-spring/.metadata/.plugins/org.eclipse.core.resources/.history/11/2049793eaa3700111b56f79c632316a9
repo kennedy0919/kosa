@@ -1,0 +1,33 @@
+package com.mycompany.backendapi.di.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+public class DiBoardService {
+	
+	@Autowired
+	private 
+	
+	public void write() {
+		log.info("실행");
+	}
+	
+	public void list() {
+		log.info("실행");
+		aComponent.method();
+		bComponent.method();
+	}
+	
+	public void update() {
+		log.info("실행");
+	}
+	
+	public void delete() {
+		log.info("실행");
+	}
+	
+}

@@ -1,0 +1,7 @@
+-- 오라클 관리자 계정으로 접속, sys
+
+CREATE USER user_spring IDENTIFIED BY oracle;
+
+GRANT CONNECT To user_spring;
+GRANT RESOURCE To user_spring;
+GRANT UNLIMITED TABLESPACE To user_spring;

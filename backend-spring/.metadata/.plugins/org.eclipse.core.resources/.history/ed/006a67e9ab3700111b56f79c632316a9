@@ -1,0 +1,7 @@
+package com.mycompany.backendapi.di.bean;
+
+public class DiInterfaceImplA implements DiInterface{
+	public DiInterfaceImplA() {
+		// TODO Auto-generated constructor stub
+	}
+}

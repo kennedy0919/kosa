@@ -1,0 +1,9 @@
+package com.mycompany.backendapi.di.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+@
+public class DiBoardSevice {
+	
+}

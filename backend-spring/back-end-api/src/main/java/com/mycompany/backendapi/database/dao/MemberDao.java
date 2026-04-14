@@ -1,0 +1,8 @@
+package com.mycompany.backendapi.database.dao;
+
+public interface MemberDao {
+	public int insert(Member member);
+	public int update(Member member);
+	public int delete(String mid);
+	public Member selectedMid(String mid);
+}

@@ -1,0 +1,5 @@
+package com.mycompany.backendapi.di.service;
+
+public class DiMemberService {
+
+}

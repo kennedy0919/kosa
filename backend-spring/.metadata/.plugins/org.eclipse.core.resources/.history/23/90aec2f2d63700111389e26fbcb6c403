@@ -1,0 +1,5 @@
+CREATE USER user_spring IDENTIFIED BY oracle;
+
+GRANT CONNECT To user_spring;
+GRANT RESOURCE To user_spring;
+GRANT UNLIMITED TABLESPACE To user_spring;

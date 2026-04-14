@@ -1,0 +1,9 @@
+package com.mycompany.backendapi.di.bean;
+
+public class DiInterfaceImplA implements DiInterface{
+	@Override
+	public void method() {
+		// TODO Auto-generated method stub
+		
+	}
+}
