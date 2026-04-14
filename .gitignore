@@ -1,0 +1,21 @@
+# Eclipse / STS metadata
+.metadata/
+.plugins/
+bin/
+*.log
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Project specific
+.settings/
+.project
+.classpath
