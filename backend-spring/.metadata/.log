@@ -4018,3 +4018,2576 @@ java.util.concurrent.TimeoutException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-14 19:41:45.138
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/database/oracle-create-user.sql
+!SESSION 2026-04-15 08:52:58.469 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 08:53:31.141
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-04-15 08:53:31.337
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 08:53:36.221
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 08:53:36.721
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 08:53:36.722
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 08:53:37.209
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 08:53:37.209
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 08:53:50.059
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 08:53:50.063
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 08:53:50.091
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 08:53:50.204
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:58.436
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 08:53:58.819
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:58.820
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:58.861
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:59.189
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:59.924
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:59.925
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 08:53:59.925
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 08:54:00.153
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:41.475
+!MESSAGE [Info] Document is null for editor: MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:41.475
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.768
+!MESSAGE [Info] Document is null for editor: oracle-create-user.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.768
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/database/oracle-create-user.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.787
+!MESSAGE [Info] Document is null for editor: member.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.788
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/member.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.833
+!MESSAGE [Info] Document is null for editor: board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.834
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.914
+!MESSAGE [Info] Document is null for editor: DiInterface.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 09:24:43.915
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/di/bean/DiInterface.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 10:35:53.931
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 10:35:53.931
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 10:36:52.168
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:14:55.005
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:18:27.939
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:18:27.940
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:23.990
+!MESSAGE [Info] Document is null for editor: MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:23.991
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.014
+!MESSAGE [Info] Document is null for editor: member.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.015
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/member.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.059
+!MESSAGE [Info] Document is null for editor: board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.060
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.106
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.106
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.137
+!MESSAGE [Info] Document is null for editor: Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.137
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.180
+!MESSAGE [Info] Document is null for editor: MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.181
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.228
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.229
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.285
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:40:24.285
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 11:46:35.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 11:46:35.247
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.729
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.729
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.741
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.742
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.758
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:11.759
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/member_dao.xml
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-04-15 11:48:13.812
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.p2.operations.ProfileModificationJob RUNNING
+	 at java.base/java.io.RandomAccessFile.open0(Native Method)
+	 at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	 at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	 at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	 at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1492)
+	 at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1458)
+	 at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	 at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	 at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	 at org.eclipse.equinox.internal.frameworkadmin.utils.Utils.basicLoadManifest(Utils.java:71)
+	 at org.eclipse.equinox.internal.frameworkadmin.utils.Utils.getOSGiManifest(Utils.java:218)
+	 at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxBundlesState.installBundle(EquinoxBundlesState.java:579)
+	 at org.eclipse.equinox.internal.simpleconfigurator.manipulator.SimpleConfiguratorManipulatorImpl.updateBundles(SimpleConfiguratorManipulatorImpl.java:652)
+	 at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.load(EquinoxManipulatorImpl.java:401)
+	 at org.eclipse.equinox.internal.p2.touchpoint.eclipse.LazyManipulator.loadDelegate(LazyManipulator.java:62)
+	 at org.eclipse.equinox.internal.p2.touchpoint.eclipse.LazyManipulator.getConfigData(LazyManipulator.java:122)
+	 at org.eclipse.equinox.internal.p2.touchpoint.eclipse.actions.InstallBundleAction.installBundle(InstallBundleAction.java:87)
+	 at org.eclipse.equinox.internal.p2.touchpoint.eclipse.actions.InstallBundleAction.execute(InstallBundleAction.java:38)
+	 at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:43)
+	 at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:196)
+	 at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:102)
+	 at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:65)
+	 at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:102)
+	 at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:52)
+	 at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	 at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:78)
+	 at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-04-15 11:48:14.484 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:48:25.398
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-04-15 11:48:25.590
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:48:29.791
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:48:30.210
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:48:30.210
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:48:30.573
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:48:30.573
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:39.190
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:39.194
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:48:39.207
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 11:48:39.549
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:44.353
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:48:44.463
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:44.463
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:44.486
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:44.847
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:45.397
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:45.398
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:48:45.398
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:48:45.531
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 11:48:46.665
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 11:48:46.665
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:49:18.016
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:49:18.017
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/member_dao.xml
+!SESSION 2026-04-15 11:49:19.581 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/kosa-course/projects/backend-spring/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:49:22.985
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-04-15 11:49:23.164
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:49:24.753
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:49:25.168
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:49:25.169
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:49:25.508
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:49:25.509
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:49:31.950
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:49:31.955
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:49:31.963
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 11:49:32.272
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 11:49:36.325
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 11:49:36.325
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:38.227
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:49:38.328
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:38.329
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:38.349
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:38.629
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:39.206
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:39.207
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:49:39.207
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:49:39.308
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-04-15 11:52:50.516
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.harawata.mybatipse,1.3.0.202210300418 from repository https://harawata.github.io/eclipse-site/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-04-15 11:52:50.516
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.harawata.mybatipse.feature,1.3.0.202210300418 from repository https://harawata.github.io/eclipse-site/.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:53:01.502
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:53:01.503
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/member_dao.xml
+!SESSION 2026-04-15 11:53:03.003 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/kosa-course/projects/backend-spring/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:53:06.306
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 11:53:08.299
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:53:08.629
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:53:08.629
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 11:53:08.978
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 11:53:08.978
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:53:15.546
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:53:15.549
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 11:53:15.563
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 11:53:15.701
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:21.228
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:53:21.337
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:21.338
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:21.357
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:22.001
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:22.316
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:22.317
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 11:53:22.317
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 11:53:22.457
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 11:55:57.881
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 11:55:57.881
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 12:01:08.065
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:398)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.lambda$0(AbstractReconciler.java:235)
+	at org.eclipse.core.runtime.jobs.Job$1.run(Job.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 12:32:18.963
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 12:32:19.002
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.801
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.802
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.816
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.816
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.832
+!MESSAGE [Info] Document is null for editor: MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.833
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.869
+!MESSAGE [Info] Document is null for editor: Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.870
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.890
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.891
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.929
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.929
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.957
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:49:48.958
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+!SESSION 2026-04-15 13:49:53.063 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 13:49:56.424
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 13:50:02.186
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 13:50:02.493
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 13:50:02.493
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 13:50:02.817
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 13:50:02.817
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:50:09.714
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:50:09.718
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 13:50:09.731
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 13:50:09.876
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:14.871
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 13:50:14.979
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:14.979
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:15.029
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:15.331
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:15.972
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:15.973
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 13:50:15.973
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 13:50:16.072
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 13:53:55.159
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 13:53:55.159
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:22.991
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:22.992
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.038
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.038
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.068
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.069
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.157
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 14:17:23.157
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:28.923
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:28.924
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:28.980
+!MESSAGE [Info] Document is null for editor: board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:28.980
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.046
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.046
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.224
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.225
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.350
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 16:02:29.351
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-15 16:24:13.207
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:958)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.get(SynchronizableDocument.java:225)
+	at org.eclipse.lsp4e.operations.completion.CompletionProposalTools.getFilterFromDocument(CompletionProposalTools.java:41)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:218)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:205)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.validate(LSCompletionProposal.java:840)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$16(LSContentAssistProcessor.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.toProposals(LSContentAssistProcessor.java:278)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:152)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:223)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-15 16:24:13.209
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:958)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.get(SynchronizableDocument.java:225)
+	at org.eclipse.lsp4e.operations.completion.CompletionProposalTools.getFilterFromDocument(CompletionProposalTools.java:41)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:218)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:205)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.validate(LSCompletionProposal.java:840)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$16(LSContentAssistProcessor.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.toProposals(LSContentAssistProcessor.java:278)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:152)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:223)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-15 16:24:13.210
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.get(AbstractDocument.java:958)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.get(SynchronizableDocument.java:225)
+	at org.eclipse.lsp4e.operations.completion.CompletionProposalTools.getFilterFromDocument(CompletionProposalTools.java:41)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:218)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getDocumentFilter(LSCompletionProposal.java:205)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.validate(LSCompletionProposal.java:840)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$16(LSContentAssistProcessor.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.toProposals(LSContentAssistProcessor.java:278)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.lambda$2(LSContentAssistProcessor.java:152)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2179)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:223)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:25.361
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:25.361
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:27.201
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:27.202
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:29.690
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:29.690
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:35.212
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:08:35.213
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY org.eclipse.ui 4 0 2026-04-15 17:22:52.872
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.internal.text.html.BrowserInformationControlInput.getHtml()" because "this.fInput" is null
+	at org.eclipse.jface.internal.text.html.BrowserInformationControl.computeSizeHint(BrowserInformationControl.java:432)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.updateBrowserSize(FocusableBrowserInformationControl.java:101)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$1(FocusableBrowserInformationControl.java:105)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:42:09.922
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:42:09.922
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:47:08.092
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 17:47:08.093
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2026-04-15 18:37:09.045
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 275] A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:187)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:300)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:517)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:214)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:93)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.createNeededPackageFragments(CopyResourceElementsOperation.java:167)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:489)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:433)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:175)
+	... 31 more
+Caused by: java.lang.Exception: A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 40 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board)[275]: java.lang.Exception: A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.createNeededPackageFragments(CopyResourceElementsOperation.java:167)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:489)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:433)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:175)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:300)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:517)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:214)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:93)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 1 org.eclipse.jdt.core 4 966 2026-04-15 18:37:09.048
+!MESSAGE A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board)[275]: java.lang.Exception: A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.createNeededPackageFragments(CopyResourceElementsOperation.java:167)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:489)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:433)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:175)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:300)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:517)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:214)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:93)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.core.resources 4 275 2026-04-15 18:37:09.048
+!MESSAGE A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/back-end-api-practice/src/main/java/com/mycompany/backendapi/Board'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:340)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:308)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.createNeededPackageFragments(CopyResourceElementsOperation.java:167)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:489)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:433)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:175)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:300)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:517)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:214)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:93)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.614
+!MESSAGE [Info] Document is null for editor: ResponseExcludeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.614
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/responseexclude/controller/ResponseExcludeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.660
+!MESSAGE [Info] Document is null for editor: Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.661
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.699
+!MESSAGE [Info] Document is null for editor: MemberJoinResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.699
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberJoinResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.729
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.730
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.783
+!MESSAGE [Info] Document is null for editor: MemberJoinRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.783
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberJoinRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.857
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:51:31.858
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:56:51.602
+!MESSAGE [Info] Document is null for editor: board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:56:51.602
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:04.814
+!MESSAGE [Info] Document is null for editor: DiBoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:04.815
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/di/service/DiBoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:09.922
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:09.923
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:42.729
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 18:57:42.730
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:00:26.424
+!MESSAGE [Info] Document is null for editor: BoardDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:00:26.425
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:18:16.585
+!MESSAGE [Info] Document is null for editor: DiBoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:18:16.586
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/di/service/DiBoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:18:24.023
+!MESSAGE [Info] Document is null for editor: DiMemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:18:24.024
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/di/service/DiMemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:21:01.346
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:21:01.347
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:25:51.760
+!MESSAGE [Info] Document is null for editor: BoardSeviceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:25:51.761
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardSeviceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:25:54.644
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:25:54.645
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardService.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 19:28:11.077
+!MESSAGE Unable to compute end of document
+!STACK 0
+org.eclipse.jface.text.BadLocationException: 302
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1112)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:246)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:863)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:429)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toPosition(LSPEclipseUtils.java:201)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:46)
+	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:89)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:194)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:200)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:145)
+	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:134)
+	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:44:03.931
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:44:03.931
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dao/BoardDao.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 19:46:14.770
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:47:00.863
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:47:00.863
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:47:08.528
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:47:08.529
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:49:09.338
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:49:09.338
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:22.740
+!MESSAGE [Info] Document is null for editor: BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:22.741
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/controller/BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:25.443
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:25.444
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:28.103
+!MESSAGE [Info] Document is null for editor: BoardRequestDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:28.103
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardRequestDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:30.244
+!MESSAGE [Info] Document is null for editor: BoardResponseDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:30.244
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardResponseDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:32.669
+!MESSAGE [Info] Document is null for editor: BoardEntity.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:32.670
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/entity/BoardEntity.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:35.539
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:35.539
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:38.572
+!MESSAGE [Info] Document is null for editor: BoardServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 19:57:38.572
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:01:30.170
+!MESSAGE [Info] Document is null for editor: board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:01:30.170
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/board.sql
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:04:10.794
+!MESSAGE [Info] Document is null for editor: board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:04:10.794
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/mapper/board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:10:06.660
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardResponseDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.192
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.193
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.208
+!MESSAGE [Info] Document is null for editor: BoardRequestDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.208
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardRequestDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.222
+!MESSAGE [Info] Document is null for editor: BoardResposneDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.223
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dto/BoardResponseDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.238
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.239
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.255
+!MESSAGE [Info] Document is null for editor: board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.256
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/mapper/board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.273
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.274
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.293
+!MESSAGE [Info] Document is null for editor: BoardServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.294
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/service/BoardServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.314
+!MESSAGE [Info] Document is null for editor: BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.315
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/controller/BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.337
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:42.338
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/application.properties
+!SESSION 2026-04-15 20:31:44.712 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 20:31:47.806
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-15 20:31:51.167
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 20:31:51.497
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 20:31:51.497
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-15 20:31:51.813
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-15 20:31:51.814
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:58.416
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:58.422
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:31:58.440
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-15 20:31:58.723
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:04.584
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 20:32:04.699
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:04.700
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:04.752
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:05.037
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:05.823
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:05.824
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-15 20:32:05.824
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-15 20:32:05.932
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.jface 2 0 2026-04-15 20:32:23.018
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-15 20:32:23.018
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:20.782
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:20.783
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:22.287
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:22.288
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:25.041
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:25.041
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:25.121
+!MESSAGE [Info] Document is null for editor: board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:33:25.122
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/mapper/board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:39:53.512
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:39:53.512
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.698
+!MESSAGE [Info] Document is null for editor: board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.698
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/mapper/board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.729
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.729
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/java/com/mycompany/backendapi/board/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.745
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.746
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.777
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-15 20:47:05.778
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/config/mybatis_config.xml
+!SESSION 2026-04-16 09:02:39.185 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-16 09:03:10.045
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-16 09:03:22.167
+!MESSAGE Logback config file: C:\kosa-course\projects\backend-spring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-16 09:03:22.947
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-16 09:03:22.947
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-16 09:03:23.328
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-16 09:03:23.328
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:03:32.714
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:03:32.728
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:03:32.759
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-16 09:03:32.979
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KOSA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:39.786
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 09:03:39.987
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:39.989
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:40.035
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:41.443
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:42.133
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:42.134
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 09:03:42.135
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 09:03:42.469
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 09:06:27.063
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:398)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.lambda$0(AbstractReconciler.java:235)
+	at org.eclipse.core.runtime.jobs.Job$1.run(Job.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.328
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.329
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY org.eclipse.jface 2 0 2026-04-16 09:06:28.355
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-16 09:06:28.355
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.444
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.445
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.529
+!MESSAGE [Info] Document is null for editor: board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 09:06:28.529
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api-practice/src/main/resources/mybatis/mapper/board_mapper.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.408
+!MESSAGE [Info] Document is null for editor: MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.409
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.461
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.461
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.498
+!MESSAGE [Info] Document is null for editor: build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.499
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/build.gradle
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.524
+!MESSAGE [Info] Document is null for editor: MemberLoginRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.524
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberLoginRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.556
+!MESSAGE [Info] Document is null for editor: MemberLoginResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.557
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberLoginResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.584
+!MESSAGE [Info] Document is null for editor: MemberInfoRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.585
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberInfoRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.600
+!MESSAGE [Info] Document is null for editor: MemberInfoResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.600
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberInfoResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.615
+!MESSAGE [Info] Document is null for editor: MemberJoinRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.615
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberJoinRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.630
+!MESSAGE [Info] Document is null for editor: Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.631
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.698
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 11:18:32.699
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 11:27:02.259
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 11:52:43.630
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 12:22:40.398
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1734)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2743)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1705)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3259)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1091)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.setSelection(ExtendedMarkersView.java:1301)
+	at org.eclipse.ui.internal.views.markers.MarkerSupportInternalUtilities.showMarkers(MarkerSupportInternalUtilities.java:362)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:130)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2298)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3173)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3623)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2274)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2725)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2655)
+	at org.eclipse.jface.text.TextViewer.postSelectionChanged(TextViewer.java:2638)
+	at org.eclipse.jface.util.Throttler.lambda$0(Throttler.java:66)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 12:22:40.441
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1734)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2743)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1705)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3259)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1091)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.setSelection(ExtendedMarkersView.java:1301)
+	at org.eclipse.ui.internal.views.markers.MarkerSupportInternalUtilities.showMarkers(MarkerSupportInternalUtilities.java:362)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:130)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2298)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3173)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3623)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2274)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2725)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2655)
+	at org.eclipse.jface.text.TextViewer.postSelectionChanged(TextViewer.java:2638)
+	at org.eclipse.jface.util.Throttler.lambda$0(Throttler.java:66)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 12:22:40.444
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1734)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2743)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1705)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3259)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1091)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.setSelection(ExtendedMarkersView.java:1301)
+	at org.eclipse.ui.internal.views.markers.MarkerSupportInternalUtilities.showMarkers(MarkerSupportInternalUtilities.java:362)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:130)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2298)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3173)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3623)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2274)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2725)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2655)
+	at org.eclipse.jface.text.TextViewer.postSelectionChanged(TextViewer.java:2638)
+	at org.eclipse.jface.util.Throttler.lambda$0(Throttler.java:66)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 12:22:40.447
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1734)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2743)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1705)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3259)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1091)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.setSelection(ExtendedMarkersView.java:1301)
+	at org.eclipse.ui.internal.views.markers.MarkerSupportInternalUtilities.showMarkers(MarkerSupportInternalUtilities.java:362)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:130)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2298)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3173)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3623)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2274)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2725)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2655)
+	at org.eclipse.jface.text.TextViewer.postSelectionChanged(TextViewer.java:2638)
+	at org.eclipse.jface.util.Throttler.lambda$0(Throttler.java:66)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 12:22:40.451
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1734)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2743)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1705)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3259)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1091)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.setSelection(ExtendedMarkersView.java:1301)
+	at org.eclipse.ui.internal.views.markers.MarkerSupportInternalUtilities.showMarkers(MarkerSupportInternalUtilities.java:362)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarkers(MarkerViewUtil.java:130)
+	at org.eclipse.ui.views.markers.MarkerViewUtil.showMarker(MarkerViewUtil.java:96)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.updateMarkerViews(AbstractDecoratedTextEditor.java:2298)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateMarkerViews(JavaEditor.java:3173)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateStatusLine(JavaEditor.java:3623)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2274)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$EditorSelectionChangedListener.selectionChanged(JavaEditor.java:311)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2725)
+	at org.eclipse.jface.text.TextViewer.firePostSelectionChanged(TextViewer.java:2655)
+	at org.eclipse.jface.text.TextViewer.postSelectionChanged(TextViewer.java:2638)
+	at org.eclipse.jface.util.Throttler.lambda$0(Throttler.java:66)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:419)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.667
+!MESSAGE [Info] Document is null for editor: MemberResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.667
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.696
+!MESSAGE [Info] Document is null for editor: MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.696
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.740
+!MESSAGE [Info] Document is null for editor: MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.741
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/MemberDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.758
+!MESSAGE [Info] Document is null for editor: MemberUpdateRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.758
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberUpdateRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.778
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.779
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.815
+!MESSAGE [Info] Document is null for editor: ReceiveDataController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.816
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/receivedata/controller/ReceiveDataController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.837
+!MESSAGE [Info] Document is null for editor: MemberRemoveResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.837
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberRemoveResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.902
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 12:24:37.902
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 12:25:51.999
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-04-16 12:32:42.915
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.425
+!MESSAGE [Info] Document is null for editor: ReceiveDataController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.425
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/receivedata/controller/ReceiveDataController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.449
+!MESSAGE [Info] Document is null for editor: MemberRemoveResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.450
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/MemberRemoveResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.500
+!MESSAGE [Info] Document is null for editor: MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.501
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/MemberService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.544
+!MESSAGE [Info] Document is null for editor: Pager.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.545
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/Pager.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.590
+!MESSAGE [Info] Document is null for editor: BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.590
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.671
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:21:40.671
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:43:54.630
+!MESSAGE [Info] Document is null for editor: ReturnTypeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 15:43:54.630
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/returntype/controller/ReturnTypeController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 16:02:23.927
+!MESSAGE [Info] Document is null for editor: Pager.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 16:02:23.928
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/Pager.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 16:31:55.526
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 16:31:55.526
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.404
+!MESSAGE [Info] Document is null for editor: BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.405
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/service/BoardService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.427
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.427
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.451
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.451
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.481
+!MESSAGE [Info] Document is null for editor: mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.481
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/config/mybatis_config.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.510
+!MESSAGE [Info] Document is null for editor: Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.511
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Board.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.528
+!MESSAGE [Info] Document is null for editor: Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.529
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/entity/Member.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.595
+!MESSAGE [Info] Document is null for editor: BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:06.595
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:14.617
+!MESSAGE [Info] Document is null for editor: member_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:04:14.617
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/member_dao.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:05:42.733
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-04-16 17:05:43.516
+!MESSAGE [Error] Failed to update conversation ID for history record: d0815247-7676-4182-a79d-53050f46e2e5
+!STACK 0
+java.io.IOException: Failed to update conversation ID
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updatePersistedConversationId(ConversationPersistenceService.java:214)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.lambda$1(ConversationPersistenceManager.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 예기치 않은 파일의 끝입니다.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadIndexDocument(ConversationPersistenceService.java:242)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadOrCreateIndexDocument(ConversationPersistenceService.java:230)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updatePersistedConversationId(ConversationPersistenceService.java:201)
+	... 8 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:05:43.787
+!MESSAGE [Info]	[agentPrompt] Rendering fresh global context for conversation/turn 202f1186-48d5-45c6-9a75-3355f6f042d3/e1a45512-5357-41d8-9795-fe9b494e9c9c
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:05:56.546
+!MESSAGE [Info]	[fetchChat] Request dfb5fdb8-be48-4fdd-9462-e337dbaf1c47 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 12663.14620000124ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:00.602
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:00.718
+!MESSAGE [Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\KOSA\.cache\pkg\c06fa41e6fd7797bf5a2792d7d92f863d0053de673f60401971998f6b21b0fc8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:00.718
+!MESSAGE [Info]	[ripgrep] Resolved ripgrep path: C:\Users\KOSA\.cache\pkg\c06fa41e6fd7797bf5a2792d7d92f863d0053de673f60401971998f6b21b0fc8\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:00.767
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 202f1186-48d5-45c6-9a75-3355f6f042d3/e1a45512-5357-41d8-9795-fe9b494e9c9c
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:01.683
+!MESSAGE [Info]	[fetchChat] Request 7672b90f-1d67-416f-86a1-9a4a2ef2c2c2 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1119.5103999972343ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:02.505
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:02.599
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 202f1186-48d5-45c6-9a75-3355f6f042d3/e1a45512-5357-41d8-9795-fe9b494e9c9c
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:06:10.736
+!MESSAGE [Info]	[fetchChat] Request 8183030f-f9c6-4701-8cc7-99c6d615b7e6 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 8160.20169999823ms
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-04-16 17:07:38.503
+!MESSAGE [Error] Failed to persist cached conversation: 202f1186-48d5-45c6-9a75-3355f6f042d3
+!STACK 0
+java.io.IOException: Failed to load conversation index document
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updateConversationIndex(ConversationPersistenceService.java:146)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.saveConversation(ConversationPersistenceService.java:95)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.persistAndCacheConversation(ConversationPersistenceManager.java:398)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.lambda$5(ConversationPersistenceManager.java:244)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 예기치 않은 파일의 끝입니다.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadIndexDocument(ConversationPersistenceService.java:242)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadOrCreateIndexDocument(ConversationPersistenceService.java:230)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updateConversationIndex(ConversationPersistenceService.java:142)
+	... 10 more
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-04-16 17:07:38.533
+!MESSAGE [Error] turnId not found: e1a45512-5357-41d8-9795-fe9b494e9c9c
+!STACK 0
+java.lang.IllegalStateException: turnId not found: e1a45512-5357-41d8-9795-fe9b494e9c9c
+	at com.microsoft.copilot.eclipse.ui.chat.ChatContentViewer.lambda$2(ChatContentViewer.java:169)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4135)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3751)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.springframework.boot.ide.branding.SpringToolsApplication.start(SpringToolsApplication.java:22)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-04-16 17:07:38.535
+!MESSAGE [Error] Failed to list conversations
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 예기치 않은 파일의 끝입니다.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadIndexDocument(ConversationPersistenceService.java:242)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadOrCreateIndexDocument(ConversationPersistenceService.java:230)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.listConversationsForUser(ConversationPersistenceService.java:351)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.listConversations(ConversationPersistenceService.java:338)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.enforceConversationHistoryLimit(ConversationPersistenceManager.java:361)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.getOrCreateNewConversationById(ConversationPersistenceManager.java:346)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.updateConversationProgressInternal(ConversationPersistenceManager.java:277)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.lambda$3(ConversationPersistenceManager.java:206)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-04-16 17:07:38.538
+!MESSAGE [Error] Failed to cache conversation progress: 
+!STACK 0
+java.io.IOException: Failed to load conversation index document
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updateConversationIndex(ConversationPersistenceService.java:146)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.saveConversation(ConversationPersistenceService.java:95)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.persistAndCacheConversation(ConversationPersistenceManager.java:398)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.getOrCreateNewConversationById(ConversationPersistenceManager.java:351)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.updateConversationProgressInternal(ConversationPersistenceManager.java:277)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceManager.lambda$3(ConversationPersistenceManager.java:206)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 예기치 않은 파일의 끝입니다.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadIndexDocument(ConversationPersistenceService.java:242)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.loadOrCreateIndexDocument(ConversationPersistenceService.java:230)
+	at com.microsoft.copilot.eclipse.core.persistence.ConversationPersistenceService.updateConversationIndex(ConversationPersistenceService.java:142)
+	... 12 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:07:38.564
+!MESSAGE [Info]	[agenticTurnProcessor] Cancellation requested for turn e1a45512-5357-41d8-9795-fe9b494e9c9c
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 17:07:38.564
+!MESSAGE [Error]	[chat] Work done token for conversation 202f1186-48d5-45c6-9a75-3355f6f042d3 is already cancelled, last updated at 1776326858558
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:07:38.565
+!MESSAGE [Info]	[roundMetricsTracker] Turn token usage: 10953 prompt, 679 completion, 4608 cached (cache rate: 42.1%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-16 17:07:38.565
+!MESSAGE [Info]	[agenticTurnProcessor] Turn e1a45512-5357-41d8-9795-fe9b494e9c9c was cancelled Canceled: Canceled
+    at t.abortIfCanceled (C:\snapshot\copilot-intellij\lib\src\toolCall\toolCallingLoop.ts:1200:19)
+    at t.processChatFetchResult (C:\snapshot\copilot-intellij\lib\src\toolCall\toolCallingLoop.ts:456:14)
+    at t.runOne (C:\snapshot\copilot-intellij\lib\src\toolCall\toolCallingLoop.ts:432:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at t.run (C:\snapshot\copilot-intellij\lib\src\toolCall\toolCallingLoop.ts:214:32)
+    at bye.processWithModelAndToolCall (C:\snapshot\copilot-intellij\lib\src\conversation\editAgent\agenticTurnProcessor.ts:214:13)
+    at bye.process (C:\snapshot\copilot-intellij\lib\src\conversation\editAgent\agenticTurnProcessor.ts:77:13)
+    at handleConversationCreateChecked (C:\snapshot\copilot-intellij\agent\src\methods\conversation\conversationCreate.ts:160:5)
+    at Er.messageHandler (C:\snapshot\copilot-intellij\agent\src\service.ts:372:45)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-16 17:07:38.565
+!MESSAGE [Error]	[chat] Work done token for conversation 202f1186-48d5-45c6-9a75-3355f6f042d3 is already cancelled, last updated at 1776326858558
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:53.006
+!MESSAGE [Info] Document is null for editor: BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:53.006
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dao/BoardDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:53.085
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:53.085
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:57.015
+!MESSAGE [Info] Document is null for editor: MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 17:13:57.016
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/MemberController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.066
+!MESSAGE [Info] Document is null for editor: BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.067
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/controller/BoardController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.112
+!MESSAGE [Info] Document is null for editor: BoardListItemResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.112
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/BoardListItemResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.124
+!MESSAGE [Info] Document is null for editor: BoardCreateReqeust.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.124
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/BoardCreateReqeust.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.136
+!MESSAGE [Info] Document is null for editor: BoardCreateResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.137
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/java/com/mycompany/backendapi/database/dto/BoardCreateResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.161
+!MESSAGE [Info] Document is null for editor: board_dao.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-16 18:00:46.162
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/kosa-course/projects/backend-spring/back-end-api/src/main/resources/mybatis/mapper/board_dao.xml

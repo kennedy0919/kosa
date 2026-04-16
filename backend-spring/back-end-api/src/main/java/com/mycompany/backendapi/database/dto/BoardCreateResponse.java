@@ -1,0 +1,15 @@
+package com.mycompany.backendapi.database.dto;
+
+import lombok.Data;
+
+@Data
+public class BoardCreateResponse {
+	private int bno;
+	private String btitle;
+	private String bwriter;
+	private int bhitcount;
+	private String bdate;
+	private String battachoname;
+	private String battachtype;
+	
+}

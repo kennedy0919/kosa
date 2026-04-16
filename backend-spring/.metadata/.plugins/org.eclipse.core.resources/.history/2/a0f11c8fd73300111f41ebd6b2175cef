@@ -1,5 +1,0 @@
-# 프로젝트 이름
-spring.application.name=back-end-api
-
-# 서버 포트
-server.port=80 

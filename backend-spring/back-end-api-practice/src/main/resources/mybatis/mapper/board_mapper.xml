@@ -1,0 +1,8 @@
+<mapper namespace="com.mycompany.backendapi.board.dao.BoardDao">
+
+    <insert id="insert" parameterType="Board">
+        insert into board (bno, btitle, bcontent, bwriter, bdate)
+        values (board_seq.nextval, #{btitle}, #{bcontent}, #{bwriter}, sysdate)
+    </insert>
+
+</mapper>
