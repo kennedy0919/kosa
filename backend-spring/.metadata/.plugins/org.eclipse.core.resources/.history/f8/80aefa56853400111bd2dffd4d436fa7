@@ -1,6 +1,0 @@
-package com.mycompany.backendapi.httpmethod.controller;
-
-@Rest
-public class HttpMethodController {
-
-}

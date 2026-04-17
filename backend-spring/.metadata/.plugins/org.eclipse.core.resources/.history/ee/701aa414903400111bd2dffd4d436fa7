@@ -1,7 +1,0 @@
-package com.mycompany.backendapi.receivedata.dto;
-
-public class LoginRequest {
-	private String mid;
-	private String mpassword;
-	
-}

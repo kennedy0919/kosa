@@ -1,9 +1,0 @@
-package com.mycompany.backendapi.restcontroller.controller;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-@
-public class ControllerTest {
-
-}

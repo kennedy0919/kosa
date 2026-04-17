@@ -1,8 +1,0 @@
-package com.mycompany.backendapi.chat.dto.request;
-
-import lombok.Data;
-
-@Data
-public class ChatMessageRequest {
-
-}

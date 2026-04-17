@@ -38,6 +38,10 @@ dependencies {
 	implementation 'com.oracle.database.jdbc:ojdbc11:21.21.0.0'
 	// Spring Security Crypto 추가
 	implementation 'org.springframework.security:spring-security-crypto'
+	// JWT 생성 및 파싱을 위한 라이브러리
+	implementation 'io.jsonwebtoken:jjwt-api:0.13.0'
+	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.13.0'
+	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.13.0'
 }
 
 tasks.named('test') {

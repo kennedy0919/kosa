@@ -24,5 +24,33 @@ public class BoardService {
 		List<Board> boards = boardDao.selectPage(pager);
 		return boards;
 	}
+
+	public Board create(Board board) {
+		boardDao.insert(board);
+		Board dbBoard = boardDao.selectByBno(board.getBno());
+		return dbBoard;
+	}
+
+	public Board getBoard(int bno) {
+		Board board = boardDao.selectByBno(bno);
+		return board;
+	}
+
+	public Board update(Board board) {
+		boardDao.update(board);
+		Board dbBoard = boardDao.selectByBno(board.getBno());
+		return dbBoard;
+		
+	}
+
+	public boolean delete(int bno) {
+		int rows = boardDao.delete(bno);
+		
+		if (rows == 1) {
+			return true;
+		} else {
+			return false;			
+		}
+	}
 	
 }

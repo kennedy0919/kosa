@@ -1,5 +1,0 @@
-package com.mycompany.backendapi.chat.dto;
-
-public class ChatDto {
-
-}

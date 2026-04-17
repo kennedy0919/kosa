@@ -15,7 +15,7 @@
 		update board
 		set btitle=#{btitle}, 
 			bcontent=#{bcontent},
-			bdate=#{bdate}
+			bdate=sysdate
 			<if test="battachoname != null">
 				,
 				battachoname=#{battachoname},
@@ -35,7 +35,7 @@
 		select bno, btitle, bcontent, bwriter, bdate, bhitcount,
 		battachoname, battachsname, battachtype, battachdata
 		from board
-		where bno #{bno}
+		where bno = #{bno}
 	</select>
 	
 	<select id="countAllRows" resultType="int">

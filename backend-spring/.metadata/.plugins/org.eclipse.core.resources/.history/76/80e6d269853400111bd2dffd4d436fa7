@@ -1,9 +1,0 @@
-package com.mycompany.backendapi.httpmethod.controller;
-
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-@R
-public class HttpMethodController {
-
-}

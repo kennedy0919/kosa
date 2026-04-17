@@ -12,7 +12,7 @@ public interface BoardDao {
 	public int insert(Board board);
 	public int update(Board board);
 	public int delete(int bno);
-	public Board selectByMid(int bno);
+	public Board selectByBno(int bno);
 	public int countAllRows();
 	public List<Board> selectPage(Pager pager);
 }

@@ -19,6 +19,7 @@ import com.mycompany.backendapi.database.dto.MemberRemoveResponse;
 import com.mycompany.backendapi.database.dto.MemberResponse;
 import com.mycompany.backendapi.database.dto.MemberUpdateRequest;
 import com.mycompany.backendapi.database.entity.Member;
+import com.mycompany.backendapi.database.service.JwtService;
 import com.mycompany.backendapi.database.service.MemberService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -29,6 +30,9 @@ import lombok.extern.slf4j.Slf4j;
 public class MemberController {
 	@Autowired
 	private MemberService memberService;
+	
+	@Autowired
+	private JwtService jwtService;
 	
 	@PostMapping("/join")
 	public MemberJoinResponse join(@RequestBody MemberJoinRequest memberJoinRequest) {
@@ -70,6 +74,11 @@ public class MemberController {
 					response.setMessage("아이디가 존재하지 않습니다.");
 				} else if (result.equals("wrong-mpassword")) {
 					response.setMessage("비밀번호가 틀립니다.");
+				} else if(result.equals("success")){
+					// DB에 저장된 Member 정보 가져오기
+					Member dbMember = memberService.getMember(member.getMid());
+					String jwt = jwtService.createJwt(dbMember.getMid(), dbMember.getMemail());
+					response.setAccessToken(jwt);
 				}
 				response.setResult(result);
 				return response;
