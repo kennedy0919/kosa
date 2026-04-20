@@ -31,19 +31,22 @@ public class AccountController {
 		transfer.setAmount(request.getAmount());
 		transfer.setTo(request.getTo());
 		
-		
 		TransferResponse transferResponse = new TransferResponse();
+		accountService.transfer(transfer);	
+		transferResponse.setResult("success");
 		
-		try {
-			accountService.transfer(transfer);	
-			transferResponse.setResult("success");
-		} catch (InsufficientFundsException e) {
-			transferResponse.setResult("failure");
-			transferResponse.setMessage("잔고 부족");
-		} catch (NoAccountExistException e) {
-			transferResponse.setResult("failure");
-			transferResponse.setMessage(e.getMessage());
-		}
+//		TransferResponse transferResponse = new TransferResponse();
+		
+//		try {
+//			accountService.transfer(transfer);	
+//			transferResponse.setResult("success");
+//		} catch (InsufficientFundsException e) {
+//			transferResponse.setResult("failure");
+//			transferResponse.setMessage("잔고 부족");
+//		} catch (NoAccountExistException e) {
+//			transferResponse.setResult("failure");
+//			transferResponse.setMessage(e.getMessage());
+//		}
 		return transferResponse;
 	}
 }

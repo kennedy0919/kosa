@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="io.jsonwebtoken.security.Keys"/>
     <fullyQualifiedTypeName name="io.jsonwebtoken.JwtParserBuilder"/>
     <fullyQualifiedTypeName name="io.jsonwebtoken.security.SecurityException"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -50,7 +49,9 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="com.mycompany.backendapi.database.exception.InsufficientFundsException"/>
     <fullyQualifiedTypeName name="com.mycompany.backendapi.database.exception.NoAccountExistException"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestControllerAdvice"/>
+    <fullyQualifiedTypeName name="com.mycompany.backendapi.database.exception.InsufficientFundsException"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 </qualifiedTypeNameHistroy>

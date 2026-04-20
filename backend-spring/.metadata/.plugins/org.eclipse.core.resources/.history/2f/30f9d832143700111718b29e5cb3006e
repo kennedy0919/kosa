@@ -1,8 +1,0 @@
-package com.mycompany.backendapi.validation.dto;
-
-public class Member {
-	private String mid;
-	private String mname;
-	private String mpassword;
-	private 
-}
