@@ -81,6 +81,9 @@ public class MemberController {
 					response.setAccessToken(jwt);
 				}
 				response.setResult(result);
+				
+				log.info("로그인 처리 실행");
+				
 				return response;
 				
 	}

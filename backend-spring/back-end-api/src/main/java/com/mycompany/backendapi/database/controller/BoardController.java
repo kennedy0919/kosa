@@ -34,6 +34,7 @@ import com.mycompany.backendapi.database.entity.Board;
 import com.mycompany.backendapi.database.interceptor.AccessTokenCheck;
 import com.mycompany.backendapi.database.service.BoardService;
 
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 
@@ -74,7 +75,10 @@ public class BoardController {
 	
 	@PostMapping("/create")
 	@AccessTokenCheck
-		public BoardCreateResponse create(@ModelAttribute BoardCreateRequest request) throws Exception {
+		public BoardCreateResponse create(
+				@ModelAttribute BoardCreateRequest request,
+				HttpServletRequest hsr
+				) throws Exception {
 			
 			Board board = new Board();
 			
@@ -83,7 +87,7 @@ public class BoardController {
 			log.info(request.getBwriter());
 			board.setBtitle(request.getBtitle());
 			board.setBcontent(request.getBcontent());
-			board.setBwriter(request.getBwriter());
+			board.setBwriter(hsr.getAttribute("mid").toString());
 			
 			MultipartFile mf = request.getBattach();
 			if(mf != null && !mf.isEmpty()) {
