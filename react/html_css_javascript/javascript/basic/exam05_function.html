@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fun1() {
+            console.log("fun1() 실행");
+        }
+        fun1();
+
+        const fun2 = () => {
+            console.log("fun2() 실행");
+        };
+        fun2();
+    </script>
+
+    <script>
+        function fun3(x, y, z=7) {
+            console.log("fun3() 실행", x, y, z);
+        }
+        fun3();
+        fun3(3);
+        fun3(3, 5);
+        fun3(3, 5, 6);
+
+        const fun4 = (x, y, z=7) => {
+            console.log("fun4() 실행", x, y, z);
+        };
+        fun4();
+        fun4(3);
+        fun4(3, 5);
+        fun4(3, 5, 6);
+    </script>
+
+    <script>
+        function fun5(x, y) {
+            var result = x + y;
+            return result;
+        }
+        var result1 = fun5(3, 5);
+
+        const fun6 = (x, y) => {
+            var result = x + y;
+            return result;
+        };
+        var result2 = fun6(3, 5);
+    </script>
+
+    <script>
+        function fun7(x, y) {
+            return x + y;
+        }
+        var result3 = fun7(3, 5);
+
+        const fun8 = (x, y) => x + y;
+        var result4 = fun8(3, 5);
+
+        const fun9 = (name, age) => {
+            return {name: name, age: age};
+        }
+        console.log(fun9("홍길동", 25));
+
+        const fun10 = (name, age) => ({name: name, age: age});
+        console.log(fun10("홍길동", 25));
+    </script>
+</body>
+</html>

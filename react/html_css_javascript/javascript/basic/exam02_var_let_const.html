@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //전역 변수 선언
+        var var1 = 1;
+        let var2 = 2;
+        const var3 = 3;
+
+        var1 = 10;
+        var2 = 20;
+        //var3 = 30; (x)
+
+        //변수의 유효 범위
+        if(true) {
+            var var4 = 5;  //전역 변수 선언
+            let var5 = 6;  //로컬 변수 선언
+            var4 = 50;
+            var5 = 60;
+        }
+        var4 = 500;
+        var5 = 600; //새로운 전역 변수 선언
+        console.log("var4: " + var4);
+        console.log("var5: " + var5);
+    </script>
+
+    <script>
+        function fun1() {
+            if(true) {
+                var var6 = 7;   //함수 단위의 로컬 변수
+                let var7 = 8;   //블록 단위의 로컬 변수
+                const var8 = 9; //블록 단위의 로컬 변수
+            }
+            console.log("var6: " + var6);
+            //console.log("var7: " + var7); (x)
+            //console.log("var8: " + var8); (x)
+        }
+        fun1();
+
+        //console.log("var6: " + var6); (x)
+    </script>
+</body>
+</html>

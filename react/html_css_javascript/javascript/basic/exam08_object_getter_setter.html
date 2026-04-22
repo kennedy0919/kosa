@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const car = {
+            _name: "그랜저",
+            _price: 5000,
+            _speed: 100,
+            //Setter 작성
+            set speed(speed) {
+                console.log("Setter 실행");
+                this._speed = speed;
+            },
+            //Getter 작성
+            get speed() {
+                console.log("Getter 실행");
+                return this._speed;
+            }
+        }
+        //Setter 사용
+        car.speed = 200;
+        //Getter 사용
+        console.log(car.speed)
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 0px auto;
+            width: 800px;
+        }
+
+        header {
+            padding: 30px;
+            text-align: center;
+            background-color: darkgray;
+            font-size: 35px;
+            color: white;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            height: 300px;
+        }
+
+        nav {
+            width: 200px;
+            padding: 50px;
+            background-color: goldenrod;
+        }
+
+        article {
+            flex-grow: 1;
+            padding: 50px;
+        }
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            background-color: darkcyan;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>Cities</header>
+        <section>
+            <nav>
+                <ul>
+                    <li>London</li>
+                    <li>Paris</li>
+                    <li>Seoul</li>
+                </ul>
+            </nav>
+            <article>
+                <h1>London</h1>
+                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            </article>
+        </section>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

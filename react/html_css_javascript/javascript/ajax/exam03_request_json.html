@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script>
+        $(() => {
+            fun1();
+        });
+
+        const fun1 = () => {
+            $.ajax({
+                url: "exam03_1_response.json",
+                success: function(data) {
+                    $("#pageNo").text(data.pageNo);
+                    $("#imagesDiv").empty();
+                    data.images.forEach((obj) => {
+                        var imgTag = "<img ";
+                        imgTag = imgTag + " src='" + obj.src + "'"; 
+                        imgTag = imgTag + " width='" + obj.width + "'";
+                        imgTag = imgTag + " height='" + obj.height + "'";
+                        imgTag = imgTag + "/>";
+                        $("#imagesDiv").append(imgTag);
+                    });
+                }
+            });
+        };
+
+        const fun2 = () => {
+            $.ajax({
+                url: "exam03_2_response.json",
+                success: function(data) {
+                    $("#pageNo").text(data.pageNo);
+                    $("#imagesDiv").empty();
+                    data.images.forEach((obj) => {
+                        var imgTag = "<img ";
+                        imgTag = imgTag + " src='" + obj.src + "'"; 
+                        imgTag = imgTag + " width='" + obj.width + "'";
+                        imgTag = imgTag + " height='" + obj.height + "'";
+                        imgTag = imgTag + "/>";
+                        $("#imagesDiv").append(imgTag);
+                    });
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <button onclick="fun2()">AJAX 요청</button>
+    <hr/>
+    <div id="content">
+        <p>PageNo: <span id="pageNo"></span></p>
+        <div id="imagesDiv">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script>
+        function fun1() {
+            $.ajax({
+                url: "exam01_response.html",
+                method: "get",
+                success: function(data) {
+                    $("#content").html(data);
+                },
+                error: function(err) {
+                    console.log(err);
+                }
+            });
+        }
+
+        function fun2() {
+            $.ajax({
+                url: "exam01_response.html",
+                method: "get" 
+            })
+            .done((data) => {
+                $("#content").html(data);
+            })
+            .fail((err) => {
+                console.log(err);
+            })
+            .always(() => {
+                console.log("마무리 작업");
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fun1()">Ajax 요청</button>
+    <button onclick="fun2()">Ajax 요청</button>
+    <hr/>
+    <div id="content">
+
+    </div>
+</body>
+</html>

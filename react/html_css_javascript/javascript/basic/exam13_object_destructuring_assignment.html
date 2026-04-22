@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 객체 구조분해 할당 -->
+    <script>
+        let board = {
+            title: "오늘은 화요일",
+            content: "오늘은 자바스크립트를 학습하고 있어요. 행복합니다.",
+            writer: "홍길동"
+        };
+
+        //var title = board.title;
+        var {title} = board;
+        console.log("title:", title);
+
+        var {title, writer} = board;
+        console.log("title:", title);
+        console.log("writer:", writer);
+
+        function fun1({title, writer}) {
+            console.log("title:", title);
+            console.log("writer:", writer);
+        }
+        fun1(board);
+    </script>
+
+    <script>
+        const member = {
+            mid: "summer",
+            name: "한여름",
+            age: 25
+        };
+
+        var {mid, ...rest} = member;
+        console.log("mid:", mid);
+        console.log("rest", rest);
+    </script>
+
+    <script>
+        function changeState1(board) {
+            //React나 Vue에서 상태 객체를 변경할 때 속성만 추가 변경할 수 없다.
+            //board.bno = 1;
+            //return board;
+            
+            //React나 Vue에서 상태 객체를 변경할 때는 새로운 객체를 생성해서 변경
+            /*return {
+                bno:1, 
+                title:board.title, 
+                content:board.content, 
+                writer: board.writer
+            };*/
+
+            return {...board, bno:1};
+            return {...board, bno:1, title:"괴롭네"};
+        }
+
+        const changeState2 = (board) => ({...board, bno:1});
+
+        board = {
+            title: "오늘은 화요일",
+            content: "오늘은 자바스크립트를 학습하고 있어요. 행복합니다.",
+            writer: "홍길동"
+        };
+        const newBoard = changeState1(board);
+        console.log(newBoard);
+    </script>
+</body>
+</html>

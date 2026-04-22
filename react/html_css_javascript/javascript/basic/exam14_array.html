@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function basic() {
+            const arr = ["Java", "JavaScript", "Vue"];
+            arr[0] = "Spring";
+            console.log(arr.length)
+            console.log(arr);
+        }
+        //basic();
+
+        function appendItem() {
+            const arr = [];
+            arr.push("html");
+            arr.push("css");
+            console.log(arr);
+        }
+        //appendItem();
+
+        function removeAndInsertItem() {
+            const arr = ["Banana", "Orange", "Apple", "Mango"];
+            
+            //항목 삭제
+            //arr.splice(2, 1);
+            //console.log(arr);
+
+            //항목 삽입
+            arr.splice(2, 0, "Lemon", "Kiwi");
+            console.log(arr);
+        }
+        //removeAndInsertItem();
+
+        function concatArray() {
+            const arr1 = ["A", "B"];
+            const arr2 = ["C", "D"];
+
+            const arr3 = [...arr1, ...arr2];
+            const arr4 = arr1.concat(arr2);
+
+            console.log(arr3);
+            console.log(arr4);
+        }
+        //concatArray();
+
+        function filterItem() {
+            const arr1 = [1, 2, 3, 4, 5];
+            const arr2 = arr1.filter((item) => item%2 == 0);
+            console.log(arr2);
+
+            const arr3 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+            const arr4 = arr3.filter((board) => board.writer === "홍길서");
+            console.log(arr4);
+        }
+        //filterItem();
+
+        function findItem() {
+            const arr1 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+            const board = arr1.find((board) => board.bno === 3);
+            console.log(board);
+        }
+        //findItem();
+
+        function handleEachItem() {
+            const arr1 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+
+            for(let i=0; i<arr1.length; i++) {
+                console.log(arr1[i]);
+            }
+            console.log("");
+
+            for(let board of arr1) {
+                console.log(board);
+            }
+            console.log("");
+
+            arr1.forEach((board) => {
+                console.log(board);
+            });
+        }
+        //handleEachItem();
+
+        function mapItem() {
+            const arr1 = [1, 2, 3, 4, 5];
+            const arr2 = arr1.map((num) => num * 10);
+            console.log(arr2);
+
+            const arr3 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+            const arr4 = arr3.map((board) => ({...board, writer:"홍길동", date:new Date().toLocaleDateString()}));
+            console.log(arr4);
+        }
+        //mapItem();
+
+        function sortItem() {
+            const arr1 = ["Banana", "Orange", "Apple", "Mango"];
+            arr1.sort();  //ASC
+            console.log(arr1);
+            arr1.reverse(); //DESC
+            console.log(arr1);
+
+            const arr2 = [
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 4, title: "제목4", writer: "홍길서" }
+            ];
+            const arr3 = arr2.sort((b1, b2) => b1.bno - b2.bno);
+            console.log(arr3);
+        }
+        sortItem();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

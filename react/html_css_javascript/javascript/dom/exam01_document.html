@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1() {
+            //객체 찾기
+            const imgCollection = document.getElementsByTagName("img");
+            console.log(imgCollection.length);
+            const img = imgCollection.item(0);
+            console.log(img);
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo2.jpg";
+            img.width = "200";
+            img.height = "200";
+        }
+
+        function fun2() {
+            //객체 찾기
+            const img = document.getElementById("img1");
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo3.jpg";
+            img.width = "150";
+            img.height = "150";
+        }
+
+        function fun3() {
+            //객체 찾기
+            const imgCollection = document.getElementsByClassName("group1");
+            console.log(imgCollection.length);
+            const img = imgCollection.item(0);
+            console.log(img);
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo4.jpg";
+            img.width = "200";
+            img.height = "200";
+        }
+
+        function fun4() {
+            const imgNodeList = document.querySelectorAll("img");
+            console.log(imgNodeList.length);
+            const img = imgNodeList.item(0);
+            console.log(img);
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo5.jpg";
+            img.width = "200";
+            img.height = "200";
+        }
+
+        function fun5() {
+            //객체 찾기
+            const img = document.querySelector("#img1");
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo6.jpg";
+            img.width = "150";
+            img.height = "150";
+        }
+
+        function fun6() {
+            const imgNodeList = document.querySelectorAll(".group1");
+            console.log(imgNodeList.length);
+            const img = imgNodeList.item(0);
+            console.log(img);
+            //객체 속성(데이터) 변경
+            img.src = "/common/images/photo/photo7.jpg";
+            img.width = "200";
+            img.height = "200";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fun1()">객체 찾기 및 데이터 변경</button>
+    <button onclick="fun2()">객체 찾기 및 데이터 변경</button>
+    <button onclick="fun3()">객체 찾기 및 데이터 변경</button>
+    <button onclick="fun4()">객체 찾기 및 데이터 변경</button>
+    <button onclick="fun5()">객체 찾기 및 데이터 변경</button>
+    <button onclick="fun6()">객체 찾기 및 데이터 변경</button>
+    <hr/>
+    <img id="img1" class="group1" src="/common/images/photo/photo1.jpg" width="150" height="150"/>
+</body>
+</html>

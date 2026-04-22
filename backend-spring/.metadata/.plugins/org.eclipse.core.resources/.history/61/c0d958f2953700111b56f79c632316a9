@@ -1,5 +1,0 @@
-package com.mycompany.backendapi.validation.dto;
-
-public class JoinRequest {
-
-}

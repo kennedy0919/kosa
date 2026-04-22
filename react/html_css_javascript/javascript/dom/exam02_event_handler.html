@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <script>
+        //모든 엘리먼트 객체가 생성된 후에 자동 실행
+        window.addEventListener("load", () => {
+            console.log("load 이벤트 처리");
+        });
+    </script>
+
+    <script>
+        function handler1() {
+            console.log("btn1이 클릭됨");
+        }
+    </script>
+
+    <script>
+        function init() {
+            //How2
+            const btn2 = document.querySelector("#btn2");
+            btn2.onclick = () => {
+                console.log("btn2이 클릭됨");
+            };
+
+            //How3
+            const btn3 = document.querySelector("#btn3");
+            btn3.addEventListener("click", () => {
+                console.log("btn3이 클릭됨");
+            });
+        }
+    </script>
+</head>
+<body onload="init()">
+    <!-- How1 -->
+    <button id="btn1" onclick="handler1()">버튼1</button>
+    <button id="btn2">버튼2</button>
+    <button id="btn3">버튼2</button>
+</body>
+</html>

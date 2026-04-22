@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script>
+        $(() => {
+            $("#btn1").on("click", btn1Click);
+            $("#btn2").on("click", btn2Click);
+            $("#btn3").on("click", btn3Click);
+        });
+
+        function btn1Click() {
+            //속성값을 변경
+            const img1 = $("#img1");
+            img1.attr("src", "/common/images/photo/photo3.jpg");
+            img1.attr("width", "200");
+            img1.attr("height", "200");
+
+            //CSS 변경
+            const img2 = $("#img2");
+            img2.css("width", "200px");
+            img2.css("height", "200px");
+            //img2.removeClass("rounded-circle");
+            img2.addClass("red-border");
+
+            const changeDiv = $("#changeDiv");
+            //CSS 속성명에서 - 는 캐멀 스타일로 작성
+            changeDiv.css("background-color", "#ff00ff"); 
+        }
+
+        function btn2Click() {
+            const addDiv = $("#addDiv");
+            //How1: 전체 내용을 바꿔치기
+            addDiv.html('<img src="/common/images/photo/photo1.jpg" width="100" height="100"/>');
+            //How2: 엘리먼트 객체를 생성하고 맨끝에 추가하기
+            addDiv.append('<img src="/common/images/photo/photo2.jpg" width="100" height="100"/>');
+        }
+
+        function btn3Click() {
+            const removeDiv = $("#removeDiv");
+            
+            //전체 내용 제거
+            //removeDiv.html("");
+            //removeDiv.empty();
+            
+            //특정 엘리먼트만 제거
+            const img3 = $("#img3");
+            img3.remove();
+        }
+    </script>
+
+    <style>
+        div {
+            margin-bottom: 20px;
+            background-color: white;
+        }
+
+        .rounded-circle {
+            border-radius: 50%;
+        }
+
+        .red-border {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn1">변경</button>
+    <hr/>
+    <div id="changeDive">
+        <img id="img1" src="/common/images/photo/photo1.jpg" style="width:100px; height:100px;" />
+        <img id="img2" src="/common/images/photo/photo2.jpg" width="100" height="100" class="rounded-circle"/>
+    </div>
+
+    <button id="btn2">추가</button>
+    <hr/>
+    <div id="addDiv">
+    </div>
+
+    <button id="btn3">삭제</button>
+    <hr/>
+    <div id="removeDiv">
+        <img id="img3" src="/common/images/photo/photo3.jpg" width="100" height="100" class="rounded-circle"/>
+        <img id="img4" src="/common/images/photo/photo4.jpg" width="100" height="100" class="rounded-circle"/>
+    </div>
+</body>
+</html>

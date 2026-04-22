@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //생성자 정의
+        function Car(name, price) {
+            this.name = name;
+            this.price = price;
+            this.start = function() {
+                console.log(this.name + "가 시동을 겁니다.");
+            };
+        }
+
+        //객체 생성
+        const myCar = new Car("그랜저", 5000);
+        console.log(myCar.name);
+        console.log(myCar.price);
+        myCar.start();
+
+        const yourCar = new Car("소나타", 3000);
+    </script>
+</body>
+</html>

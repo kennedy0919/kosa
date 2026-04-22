@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        try {
+            /*
+            let arr = [1, 2, 3];
+            console.log(arr[3]);
+            if(!arr[3]) {
+            //if(arr[3] == undefined) {
+                throw {name:"OutOfIndex", message:"인덱스 초과 에러 발생"};
+            }
+            */
+
+            let var1 = "a10b";
+            let var2 = parseInt(var1);  //NaN: Not a Number
+            if(!var2) { 
+                throw {name:"NaN", message:"숫자로 변환안되는 문자열"};
+            }
+
+            /*
+            const var4 = "abc";
+            var4 = "def";
+            */
+        } catch(err) {
+            console.log(err.name);
+            console.log(err.message);
+        } finally {
+            console.log("마무리 작업");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

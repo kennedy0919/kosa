@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const obj = { bno:1, bitle:"제목", password: false, writer:null };
+        const arr = [ 1, "제목", false, null ];
+
+        const objJson = JSON.stringify(obj);
+        const arrJson = JSON.stringify(arr);
+        console.log(objJson);   '{"bno":1,"bitle":"제목","password":false,"writer":null}'
+        console.log(arrJson);   '[1,"제목",false,null]'
+
+        const obj2 = JSON.parse('{"bno":1,"bitle":"제목","password":false,"writer":null}');
+        const arr2 = JSON.parse('[1,"제목",false,null]');
+        console.log(obj2);
+        console.log(arr2);
+
+        const boardList = [
+            { bno: 1, title: "제목1", writer: "홍길동" },
+            { bno: 2, title: "제목2", writer: "홍길서" },
+            { bno: 3, title: "제목3", writer: "홍길남" },
+            { bno: 4, title: "제목4", writer: "홍길서" },
+            { bno: 5, title: "제목5", writer: "홍길북" }
+        ];
+        const boardListJson = JSON.stringify(boardList);
+        console.log(boardListJson);
+
+        const boardList2 = JSON.parse('[{"bno":1,"title":"제목1","writer":"홍길동"},{"bno":2,"title":"제목2","writer":"홍길서"},{"bno":3,"title":"제목3","writer":"홍길남"},{"bno":4,"title":"제목4","writer":"홍길서"},{"bno":5,"title":"제목5","writer":"홍길북"}]');
+        console.log(boardList2);
+        console.log(boardList2[0].title);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

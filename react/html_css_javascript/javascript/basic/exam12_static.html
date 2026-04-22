@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //부모 클래스(설계도) 선언
+        class Car {
+            //Property 선언
+            //x
+
+            //Constructor 선언
+            constructor(name="그랜저", price=5000) {
+                //Property 선언
+                this.name = name;
+                this.price = price;
+            }
+            
+            //Method 선언
+            start() {
+                console.log(this.name + "가 시동을 겁니다.");
+            }
+
+            setPrice(price) {
+                this.price = price;
+            }
+        }
+
+        //자식 클래스 선언
+        class SportsCar extends Car {
+            //정적 속성 선언
+            static SPORTS_MODE = "sports";
+            static NORMAL_MODE = "normal";
+
+            constructor(name, price, mode) {
+                //부모 생성자 호출
+                //super();
+                super(name, price);
+                //자식만의 인스턴스 속성 선언
+                this.mode = mode;
+            }
+
+            setMode(mode) {
+                this.mode = mode;
+            }
+        }
+
+        //자식 객체
+        const myCar = new SportsCar("포르쉐", 6000, SportsCar.SPORTS_MODE);
+        console.log(myCar.name);
+        console.log(myCar.price);
+        console.log(myCar.mode);
+
+        SportsCar.NORMAL_MODE = "xxx";
+        console.log(SportsCar.NORMAL_MODE);
+    </script>
+</body>
+</html>

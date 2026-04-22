@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function task() {
+            return new Promise((resolve, reject) => {
+                //비동기 작업 처리(시간이 필요한 작업)
+                const result = false;
+                if(result) {
+                    resolve({data:"정상 응답 내용"});
+                } else {
+                    reject({errorCode:10, message:"요청 데이터 부족"});
+                }
+            });
+        }
+
+        function work1() {
+            task()
+                .then(
+                    (result) => {
+                        console.log("성공 처리됨");
+                        console.log(result);
+                        console.log(result.data);
+                    },
+                    (err) => {
+                        console.log("실패 처리됨");
+                        console.log(err);
+                        console.log(err.errorCode);
+                        console.log(err.message);
+                    }
+                );
+        }
+
+        async function work2() {
+            try {
+                const result = await task();
+                console.log("성공 처리됨");
+                console.log(result);
+                console.log(result.data);
+            } catch(err) {
+                console.log("실패 처리됨");
+                console.log(err);
+                console.log(err.errorCode);
+                console.log(err.message);
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="work1()">비동기 작업 처리1</button>
+    <button onclick="work2()">비동기 작업 처리2</button>
+</body>
+</html>
