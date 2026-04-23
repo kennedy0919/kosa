@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fun1();
+        });
+
+        const fun1 = async () => {
+            try {
+                const response = await fetch("exam02_1_data.html");
+                const data = await response.text();
+                document.getElementById("content").innerHTML = data;
+            } catch (err) {
+                console.log(err);
+            }
+        };
+
+        const fun2 = async () => {
+            try {
+                const response = await fetch("exam02_2_data.html");
+                const data = await response.text();
+                document.getElementById("content").innerHTML = data;
+            } catch (err) {
+                console.log(err);
+            }
+        };
+    </script>
+</head>
+<body>
+    <button onclick="fun2()">비동기 요청</button>
+    <hr/>
+    <div id="content">
+    </div>
+</body>
+</html>

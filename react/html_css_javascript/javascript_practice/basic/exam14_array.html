@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- 배열 항목 읽기 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun1()">fun1() 호출</button>
+    <script>
+        function fun1() {
+            const arr = ["Java", "JavaScript", "React"];
+            console.log(arr[1]);
+            arr[1] = "Spring";
+            console.log(arr[1]);
+            console.log("\n");
+
+            // 반복1
+            for (var i = 0; i < arr.length; i++) {
+                console.log(arr[i]);
+            }
+            console.log("\n");
+
+            // 반복2
+            for (var item of arr) {
+                console.log(item);
+            }
+            console.log("\n");
+
+            // 반복3
+            arr.forEach((item) => {
+                console.log(item);
+            });
+
+        }
+    </script>
+
+    <hr/>
+    <!-- 배열 항목 추가 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun2()">fun2() 호출</button>
+    <script>
+        function fun2() {
+            const arr = [];
+            arr.push("Java");
+            arr.push("JavaScript");
+            arr.push("React");
+            console.log(arr)
+        };
+    </script>
+
+    <hr/>
+    <!-- 배열 항목 삭제 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun3()">fun3() 호출</button>
+    <script>
+        function fun3() {
+            const arr = ["Java", "JavaScript", "React", "Vue", "Spring"];
+            // arr.splice(3, 1);
+            arr.splice(3, 2);
+            console.log(arr);
+ 
+            // 항목 삽입
+            arr.splice(1, 0, "Spring");
+            console.log(arr);
+
+        };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "pageNo":1,
+    "images": [
+        {"id":"img1", "src":"../../images/photo/photo1.jpg", "width":100, "height":100},
+        {"id":"img2", "src":"../../images/photo/photo2.jpg", "width":100, "height":100},
+        {"id":"img3", "src":"../../images/photo/photo3.jpg", "width":100, "height":100}
+    ]
+}

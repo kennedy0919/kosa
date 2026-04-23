@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function fun1() {
+            console.log("fun1() 실행");
+        }
+        const fun2 = () => console.log("fun2() 실행");
+        const fun3 = function () {
+            console.log("fun3() 실행");
+        };
+
+        function fun4() {
+            function fun41(x, y, z = 7) {
+                console.log("fun41 실행", x, y, z);
+            }
+            fun41(10, 20, 30);
+            fun41(10, 20);
+            fun41(y = 20, x = 10);
+        }
+
+        function fun5(arg1, arg2) {
+            function fun51(x, y) {
+                var result = x + y;
+                return result;
+            }
+
+            const fun52 = (x, y) => {
+                var result = x + y;
+                return result;
+            }
+
+            const fun53 = (x, y) => x + y;
+
+            const result1 = fun51(arg1, arg2);
+            const result2 = fun52(arg1, arg2);
+            const result3 = fun53(arg1, arg2);
+
+            console.log("result1: " + result1);
+            console.log("result2: " + result2);
+            console.log("result3: " + result3);
+
+        }
+
+        function fun6() {
+            const var1 = { name: "홍길동", age: 30, job: "개발자" };
+            console.log("var1: " + var1);
+
+            const fun61 = function(obj) {
+                console.log(obj.name);
+                console.log(obj.age);
+                console.log(obj.job);
+            }
+            fun61(var1);
+
+            const fun62 = function() {
+                return { name: "홍길동", age: 30, job: "개발자" }
+            }
+
+            const result = fun62();
+            console.log(result.name, result.age, result.job);
+
+            const fun63 = () => ({ name: "홍길동", age: 30, job: "개발자" })
+            const result2 = fun63();
+            console.log(result2.name, result2.age, result2.job);
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <button onclick="fun1()" class="btn btn-info btn-sm m-2">fun1() 호출</button>
+    <button onclick="fun2()" class="btn btn-info btn-sm m-2">fun2() 호출</button>
+    <button onclick="fun3()" class="btn btn-info btn-sm m-2">fun3() 호출</button>
+    <button onclick="fun4()" class="btn btn-info btn-sm m-2">fun4() 호출</button>
+    <button onclick="fun5(3, 7)" class="btn btn-info btn-sm m-2">fun5() 호출</button>
+    <button onclick="fun6()" class="btn btn-info btn-sm m-2">fun6() 호출</button>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1() {
+            fetch("exam01_data.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("content").innerHTML = data;
+                })
+                .catch(err => {
+                    console.log(err);
+                });
+        }
+
+        async function fun1_2() {
+            try {
+                const response = await fetch("exam01_data.html");
+                const data = await response.text();
+                document.getElementById("content").innerHTML = data;
+            } catch (err) {
+                console.log(err);
+            }
+        }
+
+        function fun2() {
+            fetch("exam01_data.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("content").innerHTML = data;
+                })
+                .catch(err => {
+                    console.log(err);
+                })
+                .finally(() => {
+                    console.log("마무리 작업");
+                });
+        }
+
+        async function fun2_1() {
+            try {
+                const response = await fetch("exam01_data.html");
+                const data = await response.text();
+                document.getElementById("content").innerHTML = data;
+            } catch (err) {
+                console.log(err);
+            } finally {
+                console.log("마무리 작업");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fun1()">비동기 요청</button>
+    <button onclick="fun1_2()">비동기 요청</button>
+    <button onclick="fun2()">비동기 요청</button>
+    <button onclick="fun2_1()">비동기 요청</button>
+    <hr/>
+    <div id="content">
+
+    </div>
+</body>
+</html>
