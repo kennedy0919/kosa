@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function startAni () {
+            timerId1 = setInterval(
+                () => {
+                    console.log("그림 변경1");
+                    const aniImage1 = document.querySelector("#aniImage1");
+
+                    var num = parseInt(Math.random() * 17) + 1;
+                    aniImage1.src = "../../images/photos/photo" + num + ".jpg"
+                },
+                1000
+            );
+
+            timerId2 = setInterval(
+                () => {
+                    console.log("그림 변경2");
+                    const aniImage2 = document.querySelector("#aniImage2");
+
+                    var num = parseInt(Math.random() * 17) + 1;
+                    aniImage2.src = "../../images/photos/photo" + num + ".jpg"
+                },
+                1500
+            );
+        }
+
+        function stopAni () {
+            clearInterval(timerId1);
+            clearInterval(timerId2);
+        }
+    </script>
+
+</head>
+<body>
+    <button onclick="startAni()">애니매이션 시작</button>
+    <button onclick="stopAni()">애니매이션 중지</button>
+    <hr/>
+
+    <img id="aniImage1" src="../../images/photos/photo1.jpg" width="200" height="150"/>
+    <img id="aniImage2" src="../../images/photos/photo1.jpg" width="200" height="150"/>
+
+
+</body>
+</html>

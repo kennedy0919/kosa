@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function startTimeout () {
+            timerId = setTimeout(
+                () => {
+                    console.log("그림 변경");
+                    const image1 = document.querySelector("#image1");
+
+                    var num = parseInt(Math.random() * 17) + 1;
+                    image1.src = "../../images/photos/photo" + num + ".jpg"
+                },
+                5000
+            );
+
+        }
+
+        function stopTimeout () {
+            clearTimeout(timerId);
+        }
+    </script>
+
+</head>
+<body>
+    <button onclick="startTimeout()">타임아웃 지정</button>
+    <button onclick="stopTimeout()">타임아웃 취소</button>
+    <hr/>
+
+    <img id="image1" src="../../images/photos/photo1.jpg" width="200" height="150"/>
+    
+
+
+</body>
+</html>

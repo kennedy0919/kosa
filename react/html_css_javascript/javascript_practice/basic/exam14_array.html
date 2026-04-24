@@ -22,7 +22,7 @@
 
             // 반복1
             for (var i = 0; i < arr.length; i++) {
-                console.log(arr[i]);
+                console.log(arr[i]); 
             }
             console.log("\n");
 
@@ -68,6 +68,133 @@
             console.log(arr);
 
         };
+    </script>
+    <!-- 배열 항목 추가 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun4()">fun4() 호출</button>
+    <script>
+        function fun4() {
+            const arr1 = ["A", "B"];
+            const arr2 = ["C", "D"];
+
+            const arr3 = [...arr1, ...arr2];
+            const arr4 = arr1.concat(arr2);
+
+            console.log("arr3: ", arr3);
+            console.log("arr4: ", arr4);
+
+
+        }
+    </script>
+
+    <!-- 필터링 하기 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun5()">fun5() 호출</button>
+    <script>
+        function fun5() {
+            const arr1 = [1, 2, 3, 4, 5];
+            const arr2 = arr1.filter(item => item % 2 === 0)
+            console.log("arr: ", arr2);
+            
+            const arr3 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+            const arr4 = arr3.filter(board => board.writer === "홍길서");
+            console.log("arr4: ", arr4);
+
+        }
+    </script>
+
+    <!-- 필터링 하기 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun6()">fun6() 호출</button>
+    <script>
+        function fun6 () {
+            const arr1 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+
+            // const board = arr1.filter(num => num.bno === 3);
+            const board = arr1.find(board => num.bno === 3);
+            console.log("board: ", board);
+        }
+    </script>
+
+    <!-- 일괄 처리(전체 요소를 하나씩 처리) -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun7()">fun7() 호출</button>
+    <script>
+        function fun7 () {
+            const arr1 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+
+            for (var i=0; i < arr1.lenght; i++) {
+                console.log(arr[i]);
+            }
+            console.log();
+
+            for (var board of arr1) {
+                console.log(board);
+            }
+
+            arr1.forEach(board => console.log(board));
+
+        }
+    </script>
+
+     <!-- 요소 변환(A -> B) -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun8()">fun8() 호출</button>
+    <script>
+        function fun8 () {
+            const arr1 = [1, 2, 3, 4, 5];
+            const arr2 = arr1.map(item => item * 10);
+            console.log("arr2: ", arr2)
+
+            const arr3 = [
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 2, title: "제목2", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 5, title: "제목5", writer: "홍길북" }
+            ];
+            const arr4 = arr3.map(board => ({...board, writer:"홍길동", data: new Date().toLocaleDateString()}));
+            console.log("arr4: ", arr4)
+        }
+    </script>
+
+    <!-- 요소 정렬 -->
+    <button class="btn btn-info btn-sm m-2" onclick="fun9()">fun9() 호출</button>
+    <script>
+        function fun9() {
+            const arr1 = ["Banana", "Orange", "Apple", "Mango"];
+            // 올림차순 (ASC)
+            arr1.sort();  
+            console.log("arr1: ", arr1);
+
+            // 내림차순 (DESC)
+            arr1.reverse();
+            console.log("arr1: ", arr1);
+
+             const arr2 = [
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 5, title: "제목5", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 2, title: "제목2", writer: "홍길북" }
+            ];
+            const arr3 = arr2.sort((board1, board2) => board2.bno - board1.bno);
+            console.log("arr3: ", arr3)
+
+        }
     </script>
 
 </body>

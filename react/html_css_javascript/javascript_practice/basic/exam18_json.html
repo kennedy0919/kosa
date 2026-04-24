@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <button onclick="fun1()">javascript 객체 -> 변환</button>
+    <button onclick="fun2()">javascript 객체 <- 변환</button>
+    <script>
+        function fun1() {
+
+        }
+    </script>
+    <script>
+        function fun1() {
+            const board = { bno: 1, title: "제목1", writer: "홍길동" };
+            const strBoardJson =JSON.stringify(board);
+            console.log('strBoardJson', strBoardJson)
+
+            const boards = [
+                { bno: 4, title: "제목4", writer: "홍길서" },
+                { bno: 1, title: "제목1", writer: "홍길동" },
+                { bno: 5, title: "제목5", writer: "홍길서" },
+                { bno: 3, title: "제목3", writer: "홍길남" },
+                { bno: 2, title: "제목2", writer: "홍길북" }
+            ];
+            const strJsonArray =JSON.stringify(boards);
+            console.log("strJsonArray: ", strJsonArray)
+        }
+    </script>
+    <script>
+        function fun2() {
+            const strJsonObject = '{"bno":1,"title":"제목1","writer":"홍길동"}';
+            const board = JSON.parse(strJsonObject);
+            console.log("board: ", board)
+            
+            const strJsonArray = '[{"bno":4,"title":"제목4","writer":"홍길서"},{"bno":1,"title":"제목1","writer":"홍길동"},{"bno":5,"title":"제목5","writer":"홍길서"},{"bno":3,"title":"제목3","writer":"홍길남"},{"bno":2,"title":"제목2","writer":"홍길북"}]'
+            const array = JSON.parse(strJsonArray);
+            console.log("array: ", strJsonArray)
+
+
+        }
+    </script>
+</body>
+
+</html>

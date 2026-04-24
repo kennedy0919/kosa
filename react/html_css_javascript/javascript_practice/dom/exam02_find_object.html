@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const btn1 = document.querySelector("#btn1");
+            console.log(btn1);
+    
+            const btn2 = document.getElementById("btn2");
+            console.log(btn2);
+
+            const cbHobby1 = document.querySelectorAll(".cbHobby")
+            console.log(cbHobby1);
+
+            const cbHobby2 = document.getElementsByClassName("cbHobby");
+            console.log(cbHobby2);
+
+            const cbHobby3 = document.querySelectorAll(".cbHobby:checked")
+            console.log(cbHobby3);
+
+        });
+
+    </script>
+
+</head>
+<body>
+    <button id="btn1">버튼1</button>
+    <button id="btn2">버튼2</button>
+
+    <input type="text" id="mid"/>
+
+    <input type="checkbox" class="cbHobby"/> 영화
+    <input type="checkbox" class="cbHobby" checked/> 음악
+    <input type="checkbox" class="cbHobby" checked/> 게임
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // HTML의 태그를 해석하고 DOM을 생성 완료 할때
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("DOM 생성이 완료됨")
+            const aniImage = document.querySelector("#aniImage");
+            startAni();
+        });
+
+        // 화면에서 사용되는 모든 리소스(CSS, JS, 이미지, ...) 가 다운로드 되었을 때
+        window.addEventListener("load", () => {
+            console.log("모든 리소스가 다운로드 완료됨");
+        });
+
+        function startAni() {
+            timerId = setInterval(
+                () => {
+                    var num = parseInt(Math.random() * 17) + 1;
+                    aniImage.src = "../../images/photos/photo" + num + ".jpg"
+                },
+                1000
+            );
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <img id="aniImage" src="../../images/photos/photo1.jpg" width="200" height="150" />
+</body>
+
+</html>

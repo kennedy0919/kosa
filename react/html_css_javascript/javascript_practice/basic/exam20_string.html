@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name = "홍길동";
+        var age = 25;
+        var info1 = "이름은 " + name + "이고, 나이는 " + age + "입니다.";
+        var info2 = `이름은 ${name}이고, 나이는 ${age}입니다.`;
+    </script>
+    <script>
+        const ssn = "951225-1234567";
+        console.log(ssn.length);
+        let sex = ssn.charAt(7);
+        console.log("sex:", sex);
+
+        const arr = ssn.split("-");
+        console.log("주민앞번호:", arr[0]);
+        console.log("주민뒷번호:", arr[1]);
+
+        const birth = ssn.substring(0, 6);
+        console.log("주민앞번호:", birth);
+
+        const backnum = ssn.substr(7, 7);
+        console.log("주민뒷번호:", backnum);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
