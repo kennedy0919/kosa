@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: deepskyblue;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.inverted {
+  background-color: white;
+  color: deepskyblue;
+  border: 1px solid black;
+}

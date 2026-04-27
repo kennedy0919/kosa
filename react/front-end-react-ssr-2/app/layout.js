@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import BootstrapClient from "./BootstrapClient";
 import AppHeader from "./AppHeader";
-import AppMenu from "./AppMenu";
 import { Suspense } from "react";
 
 const geistSans = Geist({
@@ -24,9 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        {/* 부트스트랩 적용 컴포넌트 */}
         <BootstrapClient />
-
         <div className="d-flex flex-column vh-100">
           {/* 해더 컴포넌트 부착 */}
           <AppHeader />
@@ -36,7 +33,7 @@ export default function RootLayout({ children }) {
               {/* 메뉴 바 영역 */}
               <div className="col-md-4 p-2">
                 <Suspense fallback={<div>메뉴 로딩중...</div>}>
-                  <AppMenu />
+                  {/* <AppMenu /> */}
                 </Suspense>
               </div>
               {/* 페이지 컴포넌트 영역 */}
@@ -46,9 +43,9 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </div>
+        {children}
+
       </body>
     </html>
   );
 }
-
-
