@@ -61,10 +61,10 @@ async function AppMenu() {
                                 <Link href="/Ch02Component/Exam09DomRef">Exam09DomRef</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/Ch02Component/Exam10NestedLayout/ComponentA">Exam10NestedLayout/ComponentA</Link>
+                                <Link href="/Ch02Component/Exam10NestedLayout/APageComponent">Exam10NestedLayout/APageComponent</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/Ch02Component/Exam10NestedLayout/ComponentB">Exam10NestedLayout/ComponentB</Link>
+                                <Link href="/Ch02Component/Exam10NestedLayout/BPageComponent">Exam10NestedLayout/BPageComponent</Link>
                             </li>
                             <li className="nav-item">
                                 <Link href="/Ch02Component/Exam11RuntimeErrorHandling">Exam11RuntimeErrorHandling</Link>
@@ -100,10 +100,13 @@ async function AppMenu() {
                                 <Link href="/Ch03PropsAndState/Exam05RepeatUpdate">Exam05RepeatUpdate</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/Ch03PropsAndState/Exam06StateInitFun">Exam06StateInitFun</Link>
+                                <Link href="/Ch03PropsAndState/Exam06UseEffect">Exam06UseEffect</Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/Ch03PropsAndState/Exam07StateToProp">Exam07StateToProp</Link>
+                                <Link href="/Ch03PropsAndState/Exam07StateInitFun">Exam07StateInitFun</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href="/Ch03PropsAndState/Exam08StateToProp">Exam08StateToProp</Link>
                             </li>
                         </ul>
                     </div>
