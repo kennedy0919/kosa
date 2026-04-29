@@ -7,6 +7,7 @@ function Exam01Props() {
                 Exam01Props
             </div>
             <div className="card-body">
+                {/* UI 컴포넌트 부착 */}
                 <ChildComponent name="React" version={10}>
                     <div>자식 내용입니다.</div>
                 </ChildComponent>
