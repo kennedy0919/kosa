@@ -27,7 +27,8 @@ function Exam06UseEffect() {
     const getRandomColor = function() {
         return "#" + Math.floor(Math.random() * parseInt("ffffff", 16)).toString(16);
     };
-
+    
+    // 상태가 변경되면 자동 콜백
     useEffect(() => {
         console.log("상태 변경 완료1: ", number, color);
     });
