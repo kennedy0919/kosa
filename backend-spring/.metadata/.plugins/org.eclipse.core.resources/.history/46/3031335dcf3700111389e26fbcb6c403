@@ -1,5 +1,0 @@
-package com.mycompany.backendapi.database.entity;
-
-public class Member {
-	
-}

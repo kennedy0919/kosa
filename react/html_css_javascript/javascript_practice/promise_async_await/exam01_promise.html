@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function task() {
+            const promise = new Promise((resolve, reject) => {
+                // 시간을 요하는 작업...
+                const result = true;
+                if (result) {
+                    // 성공적으로 작업을 완료
+                    resolve();
+                } else {
+                    // 작업처리가 실패
+                    reject();
+                }
+            });
+            return promise;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="work1()">비동기 작업 처리1</button>
+    <script>
+        function work1() {
+            task()
+                .then(() => console.log("성공 처리됨"))
+                .catch(() => console.log("실패 처리됨"))
+                .finally(() => console.log("마무리 처리함"));
+        }
+    </script>
+    <button onclick="work2()">비동기 작업 처리2</button>
+    <script>
+        function work2() {
+            task()
+                .then(
+                    () => console.log("성공 처리됨"),
+                    () => console.log("실패 처리됨"),
+                    
+                )
+                .finally(
+                    () => console.log("마무리 처리함")
+                ); 
+        }
+    </script>
+    <!-- 가장 많이씀!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <button onclick="work3()">비동기 작업 처리3</button> 
+    <script>
+        async function work3() {
+            try {
+                await task();
+                console.log("성공 처리됨");
+            } catch(err) {
+                console.log("실패 처리됨");
+            } finally {
+                console.log("마무리 처리됨");
+            }
+        }
+
+        
+    </script>
+
+    <button onclick="work4()">비동기 작업 처리4</button>
+    <script>
+        const work4 = async() => {
+            try {
+                await task();
+                console.log("성공 처리됨");
+            } catch(err) {
+                console.log("실패 처리됨");
+            } finally {
+                console.log("마무리 처리됨");
+            }
+        };
+    </script>
+    <button>비동기 작업 처리5</button>
+</body>
+</html>

@@ -1,5 +1,0 @@
-package com.mycompany.backendapi.database.dao;
-
-public class MemberDao {
-	public int 
-}

@@ -1,5 +1,0 @@
-package com.mycompany.backendapi.database.dao;
-
-public interface MemberDao {
-	public int insert(Member member)
-}
