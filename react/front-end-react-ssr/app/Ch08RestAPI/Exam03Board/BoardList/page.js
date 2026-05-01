@@ -45,7 +45,7 @@ function BoardList() {
                     <div>
                         <div className="mb-3">
                             {authContext.user !== "" ? (
-                                <Link href="/Ch08RestAPI/Exam03Board/BoardWrite" className="btn btn-success btn-sm">생성</Link>
+                                <Link href={`/Ch08RestAPI/Exam03Board/BoardWrite?pageNo=${pageNo}`} className="btn btn-success btn-sm">생성</Link>
                             ) : ""}
                         </div>
                         <table className="table table-striped table-bordered">
@@ -65,7 +65,7 @@ function BoardList() {
                                             <td>{board.bno}</td>
                                             <td style={{ width: "40%" }}>
                                                 {authContext.user !== "" ? (
-                                                    <Link href={`BoardRead?bno=${board.bno}&pageNo=${page.pager.pageNo}&caller=list`}>
+                                                    <Link href={`BoardRead?bno=${board.bno}&pageNo=${page.pager.pageNo}`}>
                                                         {board.btitle}
                                                     </Link>
                                                 ) : (
