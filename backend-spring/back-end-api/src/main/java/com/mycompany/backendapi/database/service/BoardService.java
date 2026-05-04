@@ -18,7 +18,7 @@ public class BoardService {
 		
 		int rows = boardDao.countAllRows();
 		return rows;
-	}
+	} 
 
 	public List<Board> getList(Pager pager) {
 		List<Board> boards = boardDao.selectPage(pager);
@@ -33,6 +33,7 @@ public class BoardService {
 
 	public Board getBoard(int bno) {
 		Board board = boardDao.selectByBno(bno);
+		System.out.println(board.getBcontent());
 		return board;
 	}
 

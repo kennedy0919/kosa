@@ -8,6 +8,7 @@ import lombok.Data;
 public class BoardCreateResponse {
 	private int bno;
 	private String btitle;
+	private String bcontent;
 	private String bwriter;
 	private int bhitcount;
 	private Date bdate;

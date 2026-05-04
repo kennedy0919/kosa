@@ -87,6 +87,7 @@ public class BoardController {
 			log.info(request.getBwriter());
 			board.setBtitle(request.getBtitle());
 			board.setBcontent(request.getBcontent());
+			log.info("🔥 bcontent from request = {}", request.getBcontent());
 			board.setBwriter(hsr.getAttribute("mid").toString());
 			
 			MultipartFile mf = request.getBattach();
@@ -119,6 +120,7 @@ public class BoardController {
 			response.setBno(dbBoard.getBno());
 			response.setBtitle(dbBoard.getBtitle());
 			response.setBwriter(dbBoard.getBwriter());
+			response.setBcontent(dbBoard.getBcontent());
 			response.setBdate(dbBoard.getBdate());
 			response.setBattachoname(dbBoard.getBattachoname());
 			response.setBattachtype(dbBoard.getBattachtype());
@@ -138,6 +140,7 @@ public class BoardController {
 		BoardReadResponse response = new BoardReadResponse();
 		response.setBno(dbBoard.getBno());
 		response.setBtitle(dbBoard.getBtitle());
+		response.setBcontent(dbBoard.getBcontent());
 		response.setBwriter(dbBoard.getBwriter());
 		response.setBdate(dbBoard.getBdate());
 		response.setBattachoname(dbBoard.getBattachoname());

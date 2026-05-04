@@ -21,9 +21,19 @@ function boardAttachDownload(bno) {
     });
 }
 
+function boardUpdate(formData) {
+    return axios.put("/board/update", formData);
+}
+
+function boardDelete(bno) {
+    return axios.delete("/board/delete/" + bno);
+}
+
 export default {
     getBoardList,
     boardWrite,
     boardRead,
-    boardAttachDownload
+    boardAttachDownload,
+    boardUpdate,
+    boardDelete
 }

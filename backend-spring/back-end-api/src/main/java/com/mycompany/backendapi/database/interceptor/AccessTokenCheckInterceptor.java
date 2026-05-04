@@ -41,9 +41,15 @@ public class AccessTokenCheckInterceptor implements HandlerInterceptor {
 	         else {   
 	            // AccessToken을 얻자.
 	            String accessToken = null;
+	            // Axios를 통해서 요청 헤더에 Authorization으로 전달되었을 경우
 	            String authorization = request.getHeader("Authorization");
 	            if(authorization != null) {
 	               accessToken = authorization.substring(7);
+	            }
+	            
+	            if(accessToken == null) {
+	            	// <img> 태그에서 Get 방식으로 전달되었을 경우
+	            	accessToken = request.getParameter("accessToken");
 	            }
 	            
 	            //AccessToken을 얻었을 경우   

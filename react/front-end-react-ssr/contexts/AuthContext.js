@@ -13,6 +13,10 @@ function AuthContextProvider({ children }) {
     const [user, setUser] = useState("");
     const [accessToken, setAccessToken] = useState("");
 
+    // 브라우저 갱신시 로그인 또는 로그인폼이 나오지 앟게 도와줌
+    // Axios 설정 중에 UI가 나오지 않도록 하는 플래그 변수
+    const[isLoading, setIsLoading] = useState(true);
+
     // Context를 통해서 제공할 전역 객체
     const value = {
         user,
@@ -24,9 +28,19 @@ function AuthContextProvider({ children }) {
     // 브라우저가 리프레쉬 되었을때 (애플리케이션이 다시 시작할때) 실행되는 자동 콜백 함수 등록
     // 로컬 스토리지에 저장된 정보를 읽고, 다시 전역 상태로 복원
     useEffect(() => {
+        // 로컬 스토리지에서 로그인 정보 읽기
+        const storedUser = localStorage.getItem("user") || "";
+        const storedToken = localStorage.getItem("accessToken") || "";
+        // 상태변경 전에 Authorization 헤더를 먼저 세팅
+        if (storedUser) {
+            addAuthHeader(storedToken);
+        }
+        // 상태변경
         startTransition(() => {
-            setUser(localStorage.getItem("user") || "");
-            setAccessToken(localStorage.getItem("accessToken") || "");
+            setUser(storedUser);
+            setAccessToken(storedToken);
+            // Axios 설정 및 전역 상태 설정에 완료되었을 때
+            setIsLoading(false);
         });
     }, []);
 
@@ -43,16 +57,21 @@ function AuthContextProvider({ children }) {
 
             // 로그아웃을 했을 경우
         } else {
-            // 로컬 스토리지에 user와 accessToken을 삭제
-            localStorage.removeItem("user");
-            localStorage.removeItem("accessToken");
-            // Axios 설정 변경(기본 요청 해더에 Authorization을 삭제)
-            removeAuthHeader();
-
-
+            if(isLoading) {
+                // 로컬 스토리지에 user와 accessToken을 삭제
+                localStorage.removeItem("user");
+                localStorage.removeItem("accessToken");
+                // Axios 설정 변경(기본 요청 해더에 Authorization을 삭제)
+                removeAuthHeader();
+            }
         }
-        console.log("전역상태가 변경되었음");
-    }, [user, accessToken]);
+        // console.log("전역상태가 변경되었음");
+    });
+
+    // Axios 및 전역 상태가 설정 중일 경우 UI를 보여주지 않음
+    if(isLoading) {
+        return null;
+    }
 
     return (
         <AuthContext.Provider value={value}>
